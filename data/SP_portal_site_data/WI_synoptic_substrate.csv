@@ -1,0 +1,10 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Meters upstream of logger array (or supply coordinates; ideally there should be 100 measurements per transect),latitude of sample location,longitude of sample location,Length of the intermediate axis of a grain (rock fragment of any size) from the bottom of the channel (millimeters),Any notes about these measurements
+siteID,date,transect,latitude,longitude,grain_size_mm,notes
+BET,2018-08-10,,43.11452,89.66426,3,gravel
+HPO,2019-08-10,,43.1888,89.68637,0.062,silt
+HPC,2018-08-10,,43.17878,89.73929,0.75,sandy cobbles
+WEN,2019-08-10,,43.16424,89.74003,3,sand/gravel/cobbles
+BEV,2018-08-10,,43.1342,89.73248,0.062,silt
+VTO,2019-08-10,,43.11196,89.75626,0.75,sandy cobbles
+VTC,2018-08-10,,43.08987,89.7379,1,gravel/sand
+MAZ,2019-08-10,,43.17973,89.79533,3,gravel

@@ -1,0 +1,10 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Meters upstream of logger array (or supply coordinates),latitude of sample location,longitude of sample location,The width of the water surface at the time of measurement (meters),The depth at the time of measurement (meters),The velocity at the time of measurement (meters per second),Any notes about the measurement
+siteID,date,transect,latitude,longitude,width_m,depth_m,velocity_ms,notes
+BET,2018-08-10,,43.11452,89.66426,8.39,0.41,,
+HPO,2018-08-10,,43.1888,89.68637,7.91,0.43,0.06,
+HPC,2018-08-10,,43.17878,89.73929,5.77,0.15,0.24,
+WEN,2018-08-10,,43.16424,89.74003,3.43,0.15,0.31,
+BEV,2018-08-10,,43.1342,89.73248,13.28,0.75,0.3,
+VTO,2018-08-10,,43.11196,89.75626,4.06,0.45,0.2,
+VTC,2018-08-10,,43.08987,89.7379,2.73,0.29,0.31,
+MAZ,2018-08-10,,43.17973,89.79533,10.36,0.65,0.3,

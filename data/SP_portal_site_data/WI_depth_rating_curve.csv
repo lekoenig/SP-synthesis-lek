@@ -1,0 +1,8 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Discharge value for rating curve (cubic meters per second),Water level for rating curve (meters),Average (or effective) depth value for rating curve (meters),"Method by which average depth was esimated (e.g. salt slug, cross-sections, etc)",Distance upstream of dissolved oxygen sensor over which reach length was estimated (meters),Any notes about the measurement
+siteID,date,discharge_cms,water_level_m,average_depth_m,average_depth_method,reach_length_upstream_m,notes
+BEC,8/8/18,430500,0.55,0.59,cross-sections,500,"10 measurements 50m apart, skipping 250m"
+BRW,8/13/18,141000,0.18,0.21,cross-sections,450,10 measurements 50m apart
+BEC,7/23/19,930000,0.744,0.65,cross-sections,170,"21 cross sections 5m apart up to 30m, then 10m apart"
+BRW,7/23/19,450000,0.838,0.32,cross-sections,100,21 cross sections 5m apart
+BEC,7/31/19,680000,0.695,0.61,cross-sections,160,"20 cross sections 5m apart up to 30m, then 10m apart"
+BRW,7/31/19,420000,0.799,0.3,cross-sections,100,21 cross sections 5m apart

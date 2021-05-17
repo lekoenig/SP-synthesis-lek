@@ -1,0 +1,19 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Discharge value for rating curve (cubic meters per second),Water level for rating curve (meters),Average (or effective) depth value for rating curve (meters),"Method by which average depth was esimated (e.g. salt slug, cross-sections, etc)",Distance upstream of dissolved oxygen sensor over which reach length was estimated (meters),Any notes about the measurement
+siteID,date,discharge_cms,water_level_m,average_depth_m,average_depth_method,reach_length_upstream_m,notes
+AZ_LV,2018-07-11,2.667744,0.21336,0.561,Cross sections,250,
+AZ_LV,2019-07-26,4.95544815,0.24384,0.8058,Cross sections,180,
+AZ_MV,2018-06-22,1.47264,0.987552,0.363,Cross sections,1100,
+AZ_OC,2017-11-08,0.87792,0.722376,0.275,Cross sections,200,
+AZ_OC,2018-03-06,1.1328,0.73152,0.377,Cross sections,235,*estimated discharge
+AZ_OC,2018-07-02,0.9912,0.728472,0.377,Cross sections,290,
+AZ_OC,2018-11-01,0.59472,0.71628,0.329,Cross sections,150,"*with synoptic, fewer transects"
+AZ_OC,2019-02-11,1.47264,0.743712,0.327,Cross sections,140,
+AZ_OC,2019-06-03,0.903307419,0.69799,0.437,Cross sections,180,
+AZ_OC,2019-08-13,0.903307419,0.697992,0.3495,Cross sections,200,
+AZ_WB,2017-11-08,0.201332782,0.844296,0.202,Cross sections,180,
+AZ_WB,2018-07-09,0.186324853,0.829056,0.21,Cross sections,135,
+AZ_WB,2018-12-18,0.216340711,0.844296,0.277,Cross sections,150,
+AZ_WB,2019-01-18,1.18944,1.05156,0.343,Cross sections,150,
+AZ_WB,2019-06-03,0.181227821,0.841248,0.291,Cross sections,160,
+AZ_WB,2019-08-13,0.161689196,0.8382,0.191,Cross sections,190,
+AZ_MV,2019-08-23,1.368785659,0.889972569,0.4774,Cross sections,1100,

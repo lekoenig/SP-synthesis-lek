@@ -1,0 +1,63 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Meters upstream of logger array (negative for downstream),Transect latitude in decimal degrees,Transect longitude in decimal degrees,"Which bank the tree is on, facing downstream (left, right)",Distance from tree to bank (meters),Estimated height of tree (meters),"Longest lateral extent of vegetation over water, perpendicular to the stream (meters)",Minimum vertical distance from water surface to overhanging vegetation (meters),"percent open canopy, e.g. from a densiometer",Any notes about these measurements
+siteID,date,transect,latitude,longitude,bank,tree_to_bank_m,tree_height_m,overhang_distance_m,overhang_height_m,open_canopy_pct,notes
+AZ_MV,2018-06-22,125,,,Right,2,10.30489691,1,2,,
+AZ_MV,2018-06-22,125,,,Left,4,17.71172255,2,4,,
+AZ_MV,2018-06-22,126,,,Right,6,14.50248723,2,3,,
+AZ_MV,2018-06-22,126,,,Left,18,28.96580831,5,8,,
+AZ_MV,2018-06-22,127,,,Right,1,9.427230189,3,2,,
+AZ_MV,2018-06-22,127,,,Left,20,17.32454346,5,20,,
+AZ_MV,2018-06-22,128,,,Right,8,9.779186594,0.5,0.5,,
+AZ_MV,2018-06-22,128,,,Left,10,18.68993247,1,1,,
+AZ_MV,2018-06-22,129,,,Right,0,9.479915913,2,2,,
+AZ_MV,2018-06-22,129,,,Left,10,4.877325886,0.2,0.2,,
+AZ_MV,2018-06-22,130,,,Right,26,26.26849243,7,12,,
+AZ_MV,2018-06-22,130,,,Left,0,6,2,3,,Estimated 6m
+AZ_MV,2018-06-22,131,,,Right,0,30.39282399,15,20,,
+AZ_MV,2018-06-22,131,,,Left,3,21.75384996,5,20,,
+AZ_MV,2018-06-22,132,,,Right,13.8,11.09124986,2,3,,
+AZ_MV,2018-06-22,132,,,Left,0,26.22946458,5,7,,
+AZ_MV,2018-06-22,133,,,Right,0,12.885356,1.5,5,,
+AZ_MV,2018-06-22,133,,,Left,0,11.14518213,3,2,,
+AZ_MV,2018-06-22,134,,,Right,0,8.443373755,5,2,,
+AZ_MV,2018-06-22,134,,,Left,1,12.75627511,3,4,,
+AZ_MV,2018-06-22,135,,,Right,13.8,11.09124986,2,3,,
+AZ_MV,2018-06-22,135,,,Left,0,26.22946458,5,7,,
+AZ_OC,2018-07-02,146,,,Left,0,9.563028336,2,1.5,,Tree on S bank by road
+AZ_OC,2018-07-02,146,,,Right,0,16.78118367,6,4,,
+AZ_OC,2018-07-02,147,,,Left,0,21.44506921,9,6,,
+AZ_OC,2018-07-02,147,,,Right,0,11.85331566,3,4,,
+AZ_OC,2018-07-02,151,,,Left,0,14.7638192,3.5,4,,
+AZ_OC,2018-07-02,151,,,Right,0,31.72225161,3,2,,
+AZ_OC,2018-07-02,152,,,Left,0,10,2,3,,
+AZ_OC,2018-07-02,152,,,Right,2,18.74608056,9,15,,
+AZ_OC,2018-07-02,153,,,Left,0,12.42636377,3,4,,
+AZ_OC,2018-07-02,153,,,Right,0,16.35929959,3,4,,
+AZ_OC,2018-07-02,155,,,Left,0,16.20317803,4,5,,
+AZ_OC,2018-07-02,155,,,Right,0,14.29941632,5,5,,
+AZ_OC,2018-07-02,156,,,Left,5,9.311188047,0,0,,
+AZ_OC,2018-07-02,156,,,Right,0,10.50404044,2,4,,
+AZ_OC,2018-07-02,158,,,Left,Bridge,Full,Bridge,Bridge,,Bridge
+AZ_OC,2018-07-02,158,,,Right,Bridge,Full,Bridge,Bridge,,Bridge
+AZ_OC,2018-07-02,160,,,Left,Bridge,Full,Bridge,Bridge,,Bridge
+AZ_OC,2018-07-02,160,,,Right,0,30,12,6,,
+AZ_OC,2018-07-02,161,,,Left,0,2,1,2,,Estimated2 ht
+AZ_OC,2018-07-02,161,,,Right,0,18.08553065,4,7,,
+AZ_LV,2018-07-11,172,,,Right,0,18.75085504,10,6,,
+AZ_LV,2018-07-11,172,,,Left,0,0.623320007,1,1,,
+AZ_LV,2018-07-11,173,,,Right,0,7,10.5,5,,Willow 7m
+AZ_LV,2018-07-11,173,,,Left,,4,,,,
+AZ_LV,2018-07-11,174,,,Right,0,15.70088404,3,15,,willow
+AZ_LV,2018-07-11,174,,,Left,0,4,1,1,,Salt Cedar + native 3 m
+AZ_LV,2018-07-11,175,,,Right,,Full,,,,Canopy from either bank touches above stream
+AZ_LV,2018-07-11,175,,,Left,,Full,,,,Canopy from either bank touches above stream
+AZ_LV,2018-07-11,176,,,Right,0,7.803442107,10,3,,"willow, browning"
+AZ_LV,2018-07-11,176,,,Left,0,3,1,2,,3 m Salt Cedar
+AZ_LV,2018-07-11,177,,,Right,,Full,,,,Canopy from either bank touches above stream
+AZ_LV,2018-07-11,177,,,Left,,Full,,,,Canopy from either bank touches above stream
+AZ_LV,2018-07-11,178,,,Right,0,13.05521121,4,13,,
+AZ_LV,2018-07-11,178,,,Left,2,13.28148007,7,10,,
+AZ_LV,2018-07-11,179,,,Right,0,18.44574715,4,18,,willow
+AZ_LV,2018-07-11,179,,,Left,0,8.596600876,8,8,,
+AZ_LV,2018-07-11,180,,,Right,0,8.065021508,1,8,,
+AZ_LV,2018-07-11,181,,,Right,0,9.634188633,3,7,,
+AZ_LV,2018-07-11,181,,,Left,10,15.6217338,0,12,,

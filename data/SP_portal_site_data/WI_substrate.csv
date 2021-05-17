@@ -1,0 +1,22 @@
+e.g. NC_MudCreek,YYYY-MM-DD,Meters upstream of logger array (negative for downstream - ideally there should be 100 measurements per transect),Transect latitude in decimal degrees,Transect longitude in decimal degrees,Length of the intermediate axis of a grain (rock fragment of any size) from the bottom of the channel (millimeters),Any notes about these measurements
+siteID,date,transect,latitude,longitude,grain_size_mm,notes
+BEC,8/8/18,0,43.10952,89.64053,0.25,sandy silt
+BEC,8/8/18,50,43.10925,89.64002,0.25,sandy silt
+BEC,8/8/18,100,43.10896,89.63953,0.5,sand
+BEC,8/8/18,150,43.10863,89.63975,0.062,silt
+BEC,8/8/18,200,43.10824,89.64002,0.062,silt
+BEC,8/8/18,300,43.10762,89.63977,0.062,silt
+BEC,8/8/18,350,43.10716,89.63962,0.062,silt
+BEC,8/8/18,400,43.10675,89.63934,1,sandy gravel
+BEC,8/8/18,450,43.10635,89.63895,0.062,silt
+BEC,8/8/18,500,43.10609,89.63876,0.062,silt
+BRW,8/13/18,0,43.12556,89.63435,0.062,silt
+BRW,8/13/18,50,43.12581,89.63402,0.062,silt
+BRW,8/13/18,100,43.12611,89.63335,0.062,silt
+BRW,8/13/18,150,43.12632,89.63284,0.062,silt
+BRW,8/13/18,200,43.12633,89.63213,0.062,silt
+BRW,8/13/18,250,43.12685,89.63195,0.062,silt
+BRW,8/13/18,300,43.12707,89.63114,0.062,silt
+BRW,8/13/18,350,43.12677,89.63062,0.062,silt
+BRW,8/13/18,400,43.12653,89.63008,0.062,silt
+BRW,8/13/18,450,43.1262,89.62973,0.062,silt
