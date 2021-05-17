@@ -12,8 +12,7 @@ library(sf)       # work with geospatial data
 ####################################################
 
 # Load StreamPULSE synthesis sites:
-sites_dat <- read.csv("./data/streampulse_synthesis_statset.csv",header=TRUE,stringsAsFactors = FALSE)
-sites_dat <- sites_dat %>% rename(.,"width_mcmanamay"="width")
+sites_dat <- read.csv("./data/streampulse_synthesis_statset.csv",header=TRUE,stringsAsFactors = FALSE) %>% rename(.,"width_mcmanamay"="width")
 sites_sp <- st_as_sf(sites_dat,coords=c("lon","lat"),crs = 4326)
 
 # Load sites with estimated metabolism:
@@ -52,13 +51,13 @@ reg_coef <- read.csv("./data/RegionalHydraulicCoef.csv",header=TRUE,stringsAsFac
     
 # Load manually-estimated widths and join with synthesis site data:
     # Google Earth:
-    widths_manual_GE <- read.csv("./sites_manual_width.csv",header=TRUE)
+    widths_manual_GE <- read.csv("./data/manual_subset/sites_manual_width.csv",header=TRUE)
     widths_GE <- widths_manual_GE %>% select(!c(lat,lon,comments)) %>% 
                   pivot_longer(!sitecode, names_to = "width_xsection", values_to = "value") %>% 
                   group_by(sitecode) %>% summarize(width_m_GE = mean(value,na.rm=T))
     
     # ArcMap:
-    widths_manual_arc <- read.csv("./sites_manual_width_arc.csv",header=TRUE)
+    widths_manual_arc <- read.csv("./data/manual_subset/sites_manual_width_arc.csv",header=TRUE)
     widths_arc <- widths_manual_arc %>% select(!OID) %>% rename("width_xsection"="xsection","value"="width_m") %>%
               group_by(sitecode) %>% summarize(width_m_arc = mean(value,na.rm=T))
     
@@ -176,7 +175,7 @@ sites$width_reglEPA <- 10^((log10(sites$ws_area_km2) * sites$coef_slope)+sites$c
 ####################################################
 
 #sites.sub <- sites[sample(c(1:length(sites$sitecode)),50,replace = FALSE),c("sitecode","lat","lon")]
-#write.csv(sites.sub,"./sites_manual_width.csv",row.names = FALSE)
+#write.csv(sites.sub,"./data/manual_subset/sites_manual_width.csv",row.names = FALSE)
 
 
 ####################################################
