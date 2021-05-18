@@ -1,0 +1,1066 @@
+Site,Surveyor,Date,Transect_Location,Point_Location,Point_Loc_in,Point_Loc_cm,Depth_cm,Depth_raw_or_ft,Point_depth_m,Width_cm,Left_raw,Right_raw,Discharge_L_s,Velocity_ms,Discharge_EPSCOR_L_s,Stage_cm,Stage_EPSCOR_cm,Stage_ft,Stage_m,Time,Notes,ExperimentNumber,Experiment,ReachLength_m\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,left,0,0,0,,,94,"1, 2 (ft, in)","4, 3 (ft, in)",1.53,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"1 ft,4 in ",2,5.08,2,2 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"1,6 (ft, in)",4,10.16,4,4 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"1,8",6,15.24,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"1,10",8,20.32,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,2,10,25.4,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"2,2",12,30.48,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"2,4",14,35.56,5,5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"2,6",16,40.64,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"2, 8",18,45.72,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"2, 10",20,50.8,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,3,22,55.88,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"3,2",24,60.96,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"3,4",26,66.04,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,"3,6",28,71.12,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,50 m from bottom of reach,right,37,93.98,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,left,0,0,0,,,142,"3,3 (ft, in)","7, 11 (ft, in)",,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"3, 7 (ft, in)",4,10.16,3,3 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"3, 11",8,20.32,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"4, 3",12,30.48,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"4, 7",16,40.64,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"4, 11",20,50.8,9,9,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"5, 3",24,60.96,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"5, 7",28,71.12,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"5, 11",32,81.28,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"6,3",36,91.44,9,9,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"6,7",40,101.6,10,10,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"6,11",44,111.76,11,11,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"7,3",48,121.92,11,11,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,"7,7",52,132.08,10,10,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,100 m from bottom of reach,right,56,142.24,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,left,0,0,0,,,84,"aa assuming 1,2","aa assuming 4,1",,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"1,5 (ft, in)",3,7.62,4,4 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"1,8",6,15.24,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"1,11",9,22.86,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"2,2",12,30.48,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"2,5",15,38.1,5,5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"2,8",18,45.72,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"2,11",21,53.34,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"3,2",24,60.96,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"3,5",27,68.58,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,"3,8",30,76.2,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/23/12,top of reach,right,33,83.82,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,left,0,0,0,,,79,2.66 (m),3.45 (m),,,,0.762,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,2.74 m,,8,6.096,0.2 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,2.83 m ,,17,3.6576,0.12 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,2.91,,25,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,3,,34,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,3.09,,43,1.524,0.05,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,3.18,,52,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,3.27,,61,1.524,0.05,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,3.36,,70,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,middle of reach,right,,79,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,left,0,0,0,,,51,1.72 (m),2.23 m,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,1.77 m,,5,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,1.82,,10,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,1.87,,15,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,1.92,,20,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,1.97,,25,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,2.02,,30,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,2.07,,35,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,2.12,,40,3.048,0.1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,6/28/12,bottom of reach,right,,51,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,left,0,0,0,,,69,164 cm,233 cm,0.02,,,6.096,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,170 cm,,6,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,177,,13,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,183,,19,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,189,,25,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,196,,32,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,202,,38,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,209,,45,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,215,,51,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,221,,57,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,227.6,,63.6,6.096,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,top of reach,right,,233,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,left,0,0,0,,,50,209 cm,259 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,214 cm,,5,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,218,,9,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,227,,18,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,232,,23,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,236,,27,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,241,,32,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,245,,36,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,250,,41,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,254,,45,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,40 m from top of reach,right,,50,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,left,0,0,0,,,109,91 cm,200 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,101 cm,,10,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,111,,20,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,121,,30,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,131,,40,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,141,,50,3.048, 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,150,,59,6.096,0.2 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,160,,69,6.096,0.2 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,170,,79,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,180,,89,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,190,,99,1.524,< 0.1 ft,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,8/6/12,60 m from top of reach,right,,109,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,left,0,0,0,,,166,70 cm,236 cm,0.51,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,85 cm,,15,4,4 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,100,,30,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,115,,45,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,130,,60,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,145,,75,5,5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,161,,91,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,176,,106,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,191,,121,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,206,,136,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,221,,151,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,top of reach,right,,166,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,left,0,0,0,,,107,255 cm,362 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,265 cm,,10,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,275,,20,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,285,,30,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,295,,40,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,305,,50,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,315,,60,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,325,,70,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,335,,80,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,345,,90,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,355,,100,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,18.5 m from top of reach,right,,107,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,left,0,0,0,,,206,104 cm,310 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,122 cm,,18,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,140,,36,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,158,,54,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,176,,72,10,10,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,194,,90,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,212,,108,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,230,,126,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,248,,144,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,266,,162,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,284,,180,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,302,,198,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,10/15/12,49.5 m from top of reach,right,,206,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,left,0,0,0,,,121,0 cm,121 cm,1,,,0.762,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,12 cm,,12,5.5,5.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,24,,24,5.8,5.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,36,,36,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,48,,48,3.6,3.6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,60,,60,2.3,2.3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,72,,72,4.4,4.4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,84,,84,4.9,4.9,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,96,,96,0.8,0.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,108,,108,0.7,0.7,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,top or 30m from top,right,,121,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,left,0,0,0,,,80,0 cm,80 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,8 cm,,8,0,0 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,16,,16,3.4,3.4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,24,,24,2.7,2.7,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,32,,32,3.3,3.3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,40,,40,3.7,3.7,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,48,,48,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,56,,56,3.9,3.9,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,64,,64,3.7,3.7,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,72,,72,1.8,1.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/15/13,bottom of reach,right,,80,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,left,0,0,0,,,144,0 cm,144 cm,2.92,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,14 cm,,14,2.5,2.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,28,,28,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,42,,42,5,5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,56,,56,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,70,,70,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,84,,84,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,98,,98,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,112,,112,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,126,,126,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,140,,140,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,top of reach,right,,144,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,left,0,0,0,,,90,0 cm,90 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,0 cm,,1,6,6 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,9,,9,8,8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,18,,18,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,27,,27,13,13,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,36,,36,9.5,9.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,45,,45,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,54,,54,6,6,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,63,,63,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,72,,72,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,30 m from top of reach,right,,90,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,left,0,0,0,,,90,0 cm,90 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,0 cm,,1,1.5,1.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,9,,9,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,18,,18,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,27,,27,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,36,,36,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,45,,45,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,54,,54,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,63,,63,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,72,,72,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,81,,81,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,90,,89,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/28/13,bottom of reach,right,,90,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,left,0,0,0,,,90,0 cm ,90 cm,4.88,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,9 cm,,9,6,6 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,18,,18,4.5,4.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,27,,27,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,36,,36,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,45,,45,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,54,,54,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,63,,63,0.2,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,72,,72,1.3,1.3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,81,,81,1.5,1.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,140,,140,0.3,0.3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,top of reach,right,,141,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,left,0,0,0,,,100,0 cm,100 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,10 cm,,10,9.5,9.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,20,,20,4.5,4.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,30,,30,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,40,,40,7.8,7.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,50,,50,7.5,7.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,60,,60,4.2,4.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,70,,70,5,5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,80,,80,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,90,,90,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,100,,100,3.5,3.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,30 m from top of reach,right,,101,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,left,0,0,0,,,64,0 cm,64 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,6 cm,,6,1.5,1.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,12,,12,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,18,,18,1.8,1.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,24,,24,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,30,,30,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,36,,36,2.8,2.8,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,42,,42,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,48,,48,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,54,,54,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,60,,60,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,5/29/13,bottom of reach,right,,64,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,left,0,0,0,,,88,0 cm,88 cm,0.99,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,9  cm,,9,1,1 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,18,,18,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,27,,27,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,37,,37,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,46,,46,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,55,,55,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,64,,64,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,73,,73,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,82,,82,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,91,,91,0,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,top of reach,right,,92,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,left,0,0,0,,,73,0 cm,73 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,6 cm,,6,0.3,0.3 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,12,,12,1.5,1.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,18,,18,1.5,1.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,24,,24,0.2,0.2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,31,,31,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,37,,37,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,43,,43,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,49,,49,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,55,,55,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,61,,61,3,3,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,67,,67,4,4,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,73,,73,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,30 m from top of reach,right,,74,0,,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,left,0,0,0,,,73,0 cm,73 cm,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,6 cm,,6,0.5,0.5 cm,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,12,,12,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,18,,18,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,24,,24,2.5,2.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,31,,31,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,37,,37,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,43,,43,1.5,1.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,49,,49,1,1,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,55,,55,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,61,,61,2,2,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,67,,67,0.5,0.5,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,73,,73,0.5,0,,,,,,,,,,,,,,,,\
+BDC,Anna Meyer,7/10/13,bottom of reach,right,,74,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,0,left,0,0,0,,,440,,4.4,70.78,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,0,a,,110,16,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,0,b,,220,22,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,0,c,,330,20,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,0,right,,440,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,20,left,0,0,0,,,385,,3.85,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,20,a,,96.25,13,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,20,b,,192.5,31,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,20,c,,288.75,18,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,20,right,,385,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,40,left,0,0,0,,,595,,5.95,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,40,a,,148.75,8,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,40,b,,297.5,29,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,40,c,,446.25,11,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,40,right,,595,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,60,left,0,0,0,,,230,,2.3,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,60,a,,57.5,14,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,60,b,,115,19,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,60,c,,172.5,18,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,60,right,,230,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,80,left,0,0,0,,,310,,3.1,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,80,a,,77.5,28,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,80,b,,155,30,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,80,c,,232.5,17,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,80,right,,310,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,100,left,0,0,0,,,240,,2.4,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,100,a,,60,15,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,100,b,,120,12,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,100,c,,180,4,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,7/9/14,100,right,,240,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,0,left,0,0,0,,,510,,5.1,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,0,a,,127.5,20,,,,,,39.953,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,0,b,,255,19,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,0,c,,382.5,12,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,0,right,,510,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,10,left,0,0,0,,,400,,4,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,10,a,,100,15,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,10,b,,200,14,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,10,c,,300,15,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,10,right,,400,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,30,left,0,0,0,,,430,,4.3,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,30,a,,107.5,20,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,30,b,,215,22,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,30,c,,322.5,26,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,30,right,,430,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,50,left,0,0,0,,,650,,6.5,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,50,a,,162.5,7,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,50,b,,325,18,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,50,c,,487.5,17,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,50,right,,650,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,90,left,0,0,0,,,300,,3,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,90,a,,75,18,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,90,b,,150,23,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,90,c,,225,16,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,90,right,,300,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,110,left,0,0,0,,,230,,2.3,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,110,a,,57.5,20,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,110,b,,115,16,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,110,c,,172.5,6,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,8/22/14,110,right,,230,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,0,left,0,0,0,,,140,,1.4,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,0,a,,35,8,,,,,,22.26,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,0,b,,70,12,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,0,c,,105,3,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,0,right,,140,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,10,left,0,0,0,,,390,,3.9,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,10,a,,97.5,18.5,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,10,b,,195,17.5,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,10,c,,292.5,10,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,10,right,,390,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,30,left,0,0,0,,,310,,3.1,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,30,a,,77.5,8,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,30,b,,155,10.5,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,30,c,,232.5,9,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,30,right,,310,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,50,left,0,0,0,,,220,,2.2,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,50,a,,55,9,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,50,b,,110,8,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,50,c,,165,2,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,50,right,,220,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,90,left,0,0,0,,,240,,2.4,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,90,a,,60,14,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,90,b,,120,12.5,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,90,c,,180,4.5,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,90,right,,240,0,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,110,left,0,0,0,,,210,,2.1,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,110,a,,52.5,15,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,110,b,,105,14,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,110,c,,157.5,9,,,,,,,,,,,,,,,,,\
+DCF,Bianca Rodriguez-Cardona,9/26/14,110,right,,210,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,0,left,0,0,0,,,76,,0.76,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,0,a,,19,2,,,,,,2.62,0.036860364,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,0,b,,38,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,0,c,,57,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,0,right,,76,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,10,left,0,0,0,,,54,,0.54,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,10,a,,13.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,10,b,,27,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,10,c,,40.5,2.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,10,right,,54,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,20,left,0,0,0,,,74,,0.74,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,20,a,,18.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,20,b,,37,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,20,c,,55.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,20,right,,74,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,30,left,0,0,0,,,92,,0.92,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,30,a,,23,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,30,b,,46,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,30,c,,69,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,30,right,,92,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,40,left,0,0,0,,,120,,1.2,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,40,a,,30,5.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,40,b,,60,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,40,c,,90,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,40,right,,120,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,50,left,0,0,0,,,130,,1.3,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,50,a,,32.5,6.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,50,b,,65,5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,50,c,,97.5,5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,50,right,,130,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,60,left,0,0,0,,,91,,0.91,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,60,a,,22.75,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,60,b,,45.5,10.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,60,c,,68.25,7,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,60,right,,91,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,70,left,0,0,0,,,195,,1.95,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,70,a,,48.75,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,70,b,,97.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,70,c,,146.25,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,70,right,,195,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,80,left,0,0,0,,,73,,0.73,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,80,a,,18.25,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,80,b,,36.5,5.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,80,c,,54.75,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,80,right,,73,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,85,left,0,0,0,,,58,,0.58,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,85,a,,14.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,85,b,,29,6.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,85,c,,43.5,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,6/30/14,85,right,,58,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,0,left,0,0,0,,,170,,1.7,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,0,a,,42.5,2,,,,,,2.885,0.049104564,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,0,b,,85,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,0,c,,127.5,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,0,right,,170,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,10,left,0,0,0,,,60,,0.6,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,10,a,,15,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,10,b,,30,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,10,c,,45,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,10,right,,60,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,20,left,0,0,0,,,100,,1,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,20,a,,25,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,20,b,,50,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,20,c,,75,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,20,right,,100,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,30,left,0,0,0,,,90,,0.9,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,30,a,,22.5,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,30,b,,45,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,30,c,,67.5,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,30,right,,90,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,40,left,0,0,0,,,90,,0.9,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,40,a,,22.5,5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,40,b,,45,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,40,c,,67.5,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,40,right,,90,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,50,left,0,0,0,,,130,,1.3,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,50,a,,32.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,50,b,,65,8,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,50,c,,97.5,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,50,right,,130,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,60,left,0,0,0,,,240,,2.4,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,60,a,,60,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,60,b,,120,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,60,c,,180,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,60,right,,240,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,70,left,0,0,0,,,200,,2,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,70,a,,50,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,70,b,,100,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,70,c,,150,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,70,right,,200,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,80,left,0,0,0,,,80,,0.8,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,80,a,,20,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,80,b,,40,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,80,c,,60,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,80,right,,80,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,85,left,0,0,0,,,30,,0.3,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,85,a,,7.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,85,b,,15,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,85,c,,22.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,7/18/14,85,right,,30,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,0,left,0,0,0,,,130,,1.3,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,0,a,,32.5,0.5,,,,,,7.26,0.066823899,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,0,b,,65,6.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,0,c,,97.5,8,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,0,right,,130,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,10,left,0,0,0,,,98,,0.98,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,10,a,,24.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,10,b,,49,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,10,c,,73.5,5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,10,right,,98,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,20,left,0,0,0,,,100,,1,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,20,a,,25,7,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,20,b,,50,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,20,c,,75,2.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,20,right,,100,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,30,left,0,0,0,,,9,,0.09,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,30,a,,2.25,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,30,b,,4.5,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,30,c,,6.75,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,30,right,,9,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,40,left,0,0,0,,,110,,1.1,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,40,a,,27.5,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,40,b,,55,9,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,40,c,,82.5,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,40,right,,110,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,50,left,0,0,0,,,170,,1.7,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,50,a,,42.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,50,b,,85,6,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,50,c,,127.5,8,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,50,right,,170,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,60,left,0,0,0,,,160,,1.6,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,60,a,,40,13,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,60,b,,80,25,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,60,c,,120,7.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,60,right,,160,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,70,left,0,0,0,,,220,,2.2,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,70,a,,55,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,70,b,,110,4.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,70,c,,165,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,70,right,,220,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,80,left,0,0,0,,,100,,1,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,80,a,,25,7,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,80,b,,50,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,80,c,,75,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,80,right,,100,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,85,left,0,0,0,,,70,,0.7,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,85,a,,17.5,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,85,b,,35,13,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,85,c,,52.5,5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,8/15/14,85,right,,70,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,0,left,0,0,0,,,40,,0.4,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,0,a,,10,0.5,,,,,,1.573,0.024383247,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,0,b,,20,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,0,c,,30,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,0,right,,40,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,10,left,0,0,0,,,40,,0.4,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,10,a,,10,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,10,b,,20,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,10,c,,30,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,10,right,,40,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,20,left,0,0,0,,,50,,0.5,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,20,a,,12.5,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,20,b,,25,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,20,c,,37.5,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,20,right,,50,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,30,left,0,0,0,,,50,,0.5,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,30,a,,12.5,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,30,b,,25,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,30,c,,37.5,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,30,right,,50,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,40,left,0,0,0,,,70,,0.7,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,40,a,,17.5,7.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,40,b,,35,5.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,40,c,,52.5,2,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,40,right,,70,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,50,left,0,0,0,,,145,,1.45,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,50,a,,36.25,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,50,b,,72.5,4.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,50,c,,108.75,5.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,50,right,,145,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,60,left,0,0,0,,,230,,2.3,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,60,a,,57.5,4,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,60,b,,115,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,60,c,,172.5,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,60,right,,230,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,70,left,0,0,0,,,200,,2,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,70,a,,50,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,70,b,,100,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,70,c,,150,0.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,70,right,,200,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,80,left,0,0,0,,,80,,0.8,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,80,a,,20,3.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,80,b,,40,3,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,80,c,,60,1,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,80,right,,80,0,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,85,left,0,0,0,,,50,,0.5,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,85,a,,12.5,7,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,85,b,,25,4.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,85,c,,37.5,1.5,,,,,,,,,,,,,,,,,\
+WHB,Bianca Rodriguez-Cardona,9/11/14,85,right,,50,0,,,,,,,,,,,,,,,,,\
+LMP,Lisle Snyder,6/27/16,1,,,,222.504,7.3,2.22504,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,292.608,9.6,2.92608,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,347.472,11.4,3.47472,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,368.808,12.1,3.68808,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,326.136,10.7,3.26136,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,228.6,7.5,2.286,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,216.408,7.1,2.16408,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,195.072,6.4,1.95072,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,1,,,,173.736,5.7,1.73736,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,164.592,5.4,1.64592,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,240.792,7.9,2.40792,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,307.848,10.1,3.07848,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,313.944,10.3,3.13944,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,329.184,10.8,3.29184,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,316.992,10.4,3.16992,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,323.088,10.6,3.23088,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,338.328,11.1,3.38328,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,332.232,10.9,3.32232,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,283.464,9.3,2.83464,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,2,,,,277.368,9.1,2.77368,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,112.776,3.7,1.12776,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,222.504,7.3,2.22504,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,304.8,10,3.048,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,341.376,11.2,3.41376,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,356.616,11.7,3.56616,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,344.424,11.3,3.44424,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,344.424,11.3,3.44424,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,332.232,10.9,3.32232,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,292.608,9.6,2.92608,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,225.552,7.4,2.25552,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,3,,,,131.064,4.3,1.31064,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,173.736,5.7,1.73736,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,316.992,10.4,3.16992,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,347.472,11.4,3.47472,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,277.368,9.1,2.77368,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,344.424,11.3,3.44424,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,344.424,11.3,3.44424,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,313.944,10.3,3.13944,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,283.464,9.3,2.83464,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,292.608,9.6,2.92608,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,298.704,9.8,2.98704,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,237.744,7.8,2.37744,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,4,,,,115.824,3.8,1.15824,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,316.992,10.4,3.16992,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,332.232,10.9,3.32232,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,341.376,11.2,3.41376,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,368.808,12.1,3.68808,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,338.328,11.1,3.38328,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,326.136,10.7,3.26136,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,323.088,10.6,3.23088,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,323.088,10.6,3.23088,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,320.04,10.5,3.2004,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,280.416,9.2,2.80416,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,5,,,,164.592,5.4,1.64592,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,128.016,4.2,1.28016,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,185.928,6.1,1.85928,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,252.984,8.3,2.52984,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,283.464,9.3,2.83464,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,277.368,9.1,2.77368,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,298.704,9.8,2.98704,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,286.512,9.4,2.86512,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,310.896,10.2,3.10896,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,304.8,10,3.048,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,307.848,10.1,3.07848,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,283.464,9.3,2.83464,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,6,,,,185.928,6.1,1.85928,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,121.92,4,1.2192,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,201.168,6.6,2.01168,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,249.936,8.2,2.49936,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,329.184,10.8,3.29184,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,341.376,11.2,3.41376,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,341.376,11.2,3.41376,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,347.472,11.4,3.47472,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,326.136,10.7,3.26136,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,310.896,10.2,3.10896,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,237.744,7.8,2.37744,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,262.128,8.6,2.62128,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,237.744,7.8,2.37744,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,7,,,,131.064,4.3,1.31064,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,73.152,2.4,0.73152,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,143.256,4.7,1.43256,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,188.976,6.2,1.88976,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,274.32,9,2.7432,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,268.224,8.8,2.68224,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,286.512,9.4,2.86512,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,298.704,9.8,2.98704,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,298.704,9.8,2.98704,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,179.832,5.9,1.79832,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,213.36,7,2.1336,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,265.176,8.7,2.65176,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,176.784,5.8,1.76784,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,8,,,,124.968,4.1,1.24968,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,131.064,4.3,1.31064,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,188.976,6.2,1.88976,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,201.168,6.6,2.01168,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,231.648,7.6,2.31648,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,192.024,6.3,1.92024,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,213.36,7,2.1336,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,231.648,7.6,2.31648,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,237.744,7.8,2.37744,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,240.792,7.9,2.40792,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,219.456,7.2,2.19456,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,155.448,5.1,1.55448,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,9,,,,103.632,3.4,1.03632,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,121.92,4,1.2192,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,152.4,5,1.524,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,179.832,5.9,1.79832,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,210.312,6.9,2.10312,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,198.12,6.5,1.9812,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,246.888,8.1,2.46888,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,228.6,7.5,2.286,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,207.264,6.8,2.07264,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,219.456,7.2,2.19456,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,204.216,6.7,2.04216,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,213.36,7,2.1336,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,192.024,6.3,1.92024,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,167.64,5.5,1.6764,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,121.92,4,1.2192,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,100.584,3.3,1.00584,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+LMP,Lisle Snyder,6/27/16,10,,,,42.672,1.4,0.42672,,,,,,,24.9936,,0.82,0.249936,10:30:00,"Approx. 530 m reach upstream of Wiswall dam, Transect 1 (most downstream) to transect 10 (most upstream)",,,\
+BEF,Lisle Snyder,7/7/16,1,,,,2,,0.02,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,6,,0.06,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,9,,0.09,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,12,,0.12,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,23,,0.23,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,1,,,,23.5,,0.235,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,6,,0.06,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,27,,0.27,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,29,,0.29,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,36,,0.36,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,32,,0.32,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,31,,0.31,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,21,,0.21,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,20,,0.2,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,2,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,3,,0.03,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,6,,0.06,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,5,,0.05,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,28,,0.28,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,42,,0.42,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,43,,0.43,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,46,,0.46,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,45,,0.45,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,12,,0.12,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,3,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,21,,0.21,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,17,,0.17,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,7,,0.07,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,20,,0.2,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,16,,0.16,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,30,,0.3,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,4,,,,3,,0.03,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,9,,0.09,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,9.5,,0.095,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,21,,0.21,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,36,,0.36,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,16,,0.16,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,26,,0.26,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,19,,0.19,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,5,,,,10,,0.1,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,5.5,,0.055,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,10,,0.1,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,17,,0.17,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,19,,0.19,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,20,,0.2,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,25,,0.25,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,21,,0.21,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,19,,0.19,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,6,,,,3,,0.03,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,8,,0.08,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,11,,0.11,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,26,,0.26,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,19,,0.19,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,8,,0.08,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,12,,0.12,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,4,,0.04,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,30,,0.3,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,7,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,25,,0.25,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,22,,0.22,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,27,,0.27,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,10,,0.1,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,7,,0.07,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,8,,,,5,,0.05,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,16,,0.16,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,10,,0.1,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,22,,0.22,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,15,,0.15,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,5,,0.05,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,21,,0.21,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,10,,0.1,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,9,,,,9,,0.09,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,8,,0.08,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,14,,0.14,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,35,,0.35,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,25,,0.25,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,18,,0.18,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,16,,0.16,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,20,,0.2,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,55,,0.55,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,43,,0.43,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+BEF,Lisle Snyder,7/7/16,10,,,,25,,0.25,,,,,,,53.065,,NA,0.53065,11:30:00,,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,4,,0.04,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,8.5,,0.085,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,7.5,,0.075,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,1,,,,11.5,,0.115,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,4,,0.04,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,17,,0.17,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,17,,0.17,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,3,,0.03,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,16,,0.16,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,2,,,,13.5,,0.135,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,2.5,,0.025,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,4.5,,0.045,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,8.5,,0.085,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,8.5,,0.085,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,8.5,,0.085,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,3,,,,27,,0.27,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,29,,0.29,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,15,,0.15,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,13,,0.13,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,13.5,,0.135,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,5.5,,0.055,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,14.5,,0.145,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,4,,0.04,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,3,,0.03,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,4,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,18,,0.18,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,12.5,,0.125,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,1,,0.01,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,15,,0.15,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,5,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,3,,0.03,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,41,,0.41,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,19,,0.19,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,5,,0.05,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,24,,0.24,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,19,,0.19,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,14,,0.14,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,6,,,,18,,0.18,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,5,,0.05,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,21,,0.21,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,19,,0.19,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,13,,0.13,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,18,,0.18,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,17,,0.17,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,7,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,14,,0.14,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,9,,0.09,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,2,,0.02,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,7.5,,0.075,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,10,,0.1,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,8,,,,9.5,,0.095,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,23.5,,0.235,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,14,,0.14,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,6,,0.06,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,10,,0.1,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,13,,0.13,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,11,,0.11,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,31,,0.31,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,9,,,,7,,0.07,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,14.5,,0.145,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,15,,0.15,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,13,,0.13,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,12,,0.12,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,13,,0.13,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,28,,0.28,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,10,,0.1,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,8,,0.08,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,14,,0.14,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,7/7/16,10,,,,10,,0.1,,,,,,,40.7,,NA,0.407,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,12,,0.12,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,14,,0.14,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,16,,0.16,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,19,,0.19,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,13,,0.13,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,18,,0.18,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,20,,0.2,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,11,,0.11,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,11,,0.11,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,12,,0.12,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,15,,0.15,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,11,,0.11,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,14,,0.14,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,18,,0.18,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,20,,0.2,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,22,,0.22,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,25,,0.25,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,28,,0.28,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,31,,0.31,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,33,,0.33,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,34,,0.34,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,14,,0.14,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,23,,0.23,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,33,,0.33,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,22,,0.22,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,25,,0.25,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,20,,0.2,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,22,,0.22,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,24,,0.24,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,11,,0.11,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,16,,0.16,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,19,,0.19,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,20,,0.2,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,22,,0.22,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,25,,0.25,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,26,,0.26,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,25,,0.25,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,20,,0.2,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,16,,0.16,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,23,,0.23,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,23,,0.23,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,23,,0.23,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,24,,0.24,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,11,,0.11,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,22,,0.22,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,19,,0.19,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,17,,0.17,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,15,,0.15,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,13,,0.13,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,14,,0.14,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,9,,0.09,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,17,,0.17,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,14,,0.14,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,23,,0.23,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,27,,0.27,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,37,,0.37,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,41,,0.41,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,45,,0.45,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+BEF,Lisle Snyder,8/10/16,NA,,,,50,,0.5,,,,,,,50.699484,,NA,0.50699484,10:35:00,,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,10,,0.1,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,3,,0.03,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,7,,0.07,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,8,,0.08,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,12,,0.12,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,1,,0.01,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,4,,0.04,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,2,,0.02,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,5,,0.05,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+HBF,Lisle Snyder,8/10/16,NA,,,,6,,0.06,,,,,,,40.614651,,NA,0.40614651,14:15:00,reach upstream of weir pool. Note that flow was very low so these values likely come from areas that normally are pools,,,\
+WHB,BRC Thesis,4/25/13,,,,,6,0.06,,130,,,13.07,,5.73478,,35.87305,,,13:20:00,NA,1,NO3 TASCC,85\
+DCF,BRC Thesis,5/30/13,,,,,,NA,,150,,,83.6,0.121396055,92.059,,63.359,,,11:37:00,NA,2,NO3 TASCC,80\
+WHB,BRC Thesis,6/21/13,,,,,6,0.06,,100,,,6.9,0.055051813,8.40439,,36.96412,,,13:27:00,depth .6,3,NO3 TASCC,85\
+DCF,BRC Thesis,7/10/13,,,,,,NA,,150,,,63.03,0.111377246,56.179,,59.204,,,12:02:00,NA,4,NO3 TASCC,93\
+WHB,BRC Thesis,8/7/13,,,,,,NA,,75,,,2.36,0.041687102,3.76238,,34.6698,,,12:20:00,NA,5,NO3 TASCC,85\
+DCF,BRC Thesis,8/15/13,,,,,,NA,,100,,,19.2,0.04973262,20.403,,51.515,,,10:25:00,BRC: Width might have been guesstimated,6,NO3 TASCC,93\
+WHB,BRC Thesis,9/11/13,,,,,,NA,,75,,,2.64,0.035744323,3.13579,,34.14975,,,9:33:00,NA,7,NO3 TASCC,85\
+DCF,BRC Thesis,10/5/13,,,,,,NA,,100,,,30,0.037881874,22.203,,52.117,,,10:04:00,BRC: Width might have been guesstimated,8,NO3 TASCC,93\
+WHB,BRC Thesis,11/10/13,,,,,,NA,,130,,,6.48,0.036062792,8.31481,,36.93353,,,9:58:00,NA,9,TASCC during acetate Plateau,85\
+DCF,DON Project,6/17/14,,,,,,NA,,250,,,23,0.054575987,24.722,,52.892,,,10:50:58,NA,10,NO3 TASCC,130\
+SBM,BRC Thesis,7/11/14,,,,,3.8,0.038,,161,,,1.77,,4.51292,,24.66654,,,9:54:48,NA,13,NO3 TASCC,50\
+DCF,NA,6/18/15,,,,,10.37,0.1037,,250,,,30.85,0.048088439,25.999,,53.259,,,11:08:00,NA,19,PO4 TASCC,104.4\
+WHB,BRC Thesis,6/30/15,,,,,,NA,,161,,,13.376,0.066718995,1.96393,,32.81395,,,10:20:35,BRC: depth not measured,20,NO3 TASCC,85\
+TPB,BRC Thesis,7/17/15,,,,,9.53,0.0953,,340,,,26.67,0.04724026,28.39877,,36.60723,,,11:15:21,NA,21,NO3 TASCC,145.5\
+DCF,DDON,5/19/16,,,,,,NA,,330,,,NA,0.053497942,38.63479682,,56.236455,,,9:02:00,NA,22,NO3 TASCC,104\
+TPB,DDON,6/6/16,,,,,22.28,0.2228,,336,,,NA,0.21347424,244.9349019,,48.53772,,,11:35:35,NA,23,NO3 TASCC,161.6\
+DCF,DDON,6/10/16,,,,,10.5,0.105,,315.8,,,NA,0.043070582,28.68511333,,53.982918,,,11:03:44,NA,24,NO3 TASCC,83.6\
+TPB,DDON,6/29/16,,,,,15.0482353,0.150482353,,398.3,,,NA,0.091247883,36.14695522,,37.943037,,,10:35:50,NA,25,PO4 TASCC,161.6\
+DCF,DDON,7/8/16,,,,,8.9182692,0.089182692,,242.7,,,NA,,8.772497865,,45.876303,,,9:31:31,BRC: reach length not measured. ,26,NO3 TASCC,NA\
+DCF,DDON,7/13/16,,,,,9.7804878,0.097804878,,218,,,NA,0.015535957,12.80739049,,48.323583,,,9:20:04,NA,27,NO3 TASCC,45.8\
+TPB,DDON,7/22/16,,,,,,NA,,358.1,,,NA,0.045817976,17.52892697,,33.935616,,,9:31:30,BRC: width and depth not measured. Width estimated,28,NO3 TASCC,161.6\
+DCF,LEK,6/3/14,,,,,0.16564739,,,280,,,NA,0.083007647,38.5,,56.21,,,13:00:00,NA,NA,NA,97.7\
+DCF,JC,6/29/17,,,,,,,,NA,,,NA,0.085808581,42.79447023,,57.032,,,9:52:00,NA,NA,NA,260\
