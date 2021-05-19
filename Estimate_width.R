@@ -88,11 +88,15 @@ reg_coef <- read.csv("./data/RegionalHydraulicCoef.csv",header=TRUE,stringsAsFac
     SP_dat$width_m_SP[which(is.nan(SP_dat$width_m_SP))] <- NA
     
     # NH EPSCoR site not on the data portal (NH_DCF):  
-    epscor_dat <- read.csv("./data/NH_EPSCoR_site_data/01_EPSCoR_Stream_Dims.csv",header=TRUE) %>% filter(Site=="DCF") %>%
+    epscor_dat <- read.csv("./data/NH_EPSCoR_site_data/EPSCoR_Stream_Dims.csv",header=TRUE) %>% filter(Site=="DCF") %>%
       group_by(Date) %>% summarize(MedWidth_m = median(Width_cm,na.rm=TRUE)) %>% summarize(width_m_SP = median(MedWidth_m,na.rm=TRUE)/100) %>% mutate(sitecode = "NH_DCF") %>% select(sitecode,width_m_SP)
     
+    # NC site data not on the data portal (NC_NHC and NC_UNHC):
+    NC_dat <- read.csv("./data/NC_site_data/NC_SP_field_widths.csv",header=TRUE) %>% group_by(sitecode) %>% 
+              summarize(width_m_SP = median(Wetted_width_m,na.rm=TRUE))
+    
     # Combine SP_dat with new EPSCoR data above:
-    SP_dat2 <- bind_rows(SP_dat,epscor_dat)
+    SP_dat2 <- bind_rows(SP_dat,epscor_dat,NC_dat)
     
     # Combine manual width data:
     widths_manual <- left_join(widths_GE,widths_arc,by="sitecode") %>% left_join(.,SP_dat2) %>% bind_rows(.,SP_dat2[! SP_dat2$sitecode %in% .$sitecode,])
@@ -260,6 +264,8 @@ print(case_counts)
 
 waffle::waffle(case_counts,rows=10)
 
+# Which sites coming from the StreamPULSE data portal don't have corresponding widths?  
+sites %>% filter(!grepl('nwis', sitecode)) %>% select(sitecode) %>% filter(! sitecode %in% SP_dat2$sitecode)
 
 
 
