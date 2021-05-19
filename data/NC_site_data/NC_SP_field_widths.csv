@@ -1,4 +1,4 @@
-Sitecode,GPS_number,Wetted_width_m,Baseflow_width_m,Bankfull_width_m
+sitecode,GPS_number,Wetted_width_m,Baseflow_width_m,Bankfull_width_m
 NC_NHC,100,7.2,13,100
 NC_NHC,101,11.6,15.8,65
 NC_NHC,102,17,17.3,20.25
