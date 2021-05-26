@@ -1,0 +1,22 @@
+=============================
+Data set title
+=============================
+[1] "This data set contains width estimates for the river locations within the StreamPULSE synthesis statset (Bernhardt et al.)"
+
+
+=============================
+Author
+=============================
+[1] "LKoenig"
+
+
+=============================
+Last edit date
+=============================
+[1] "2021-05-26 11:54:48 EDT"
+
+
+=============================
+Column names
+=============================
+[1] "sitecode"      "width_m"       "width_src"     "usgs_gagename"
