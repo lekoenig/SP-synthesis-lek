@@ -50,8 +50,20 @@ print(sites_inspect[,c("sitecode","Name","Source")])
 sites_inspect_export <- sites_inspect %>% st_drop_geometry() %>% select(-epsg_crs_full)
 write.csv(sites_inspect_export,paste("./output/intermediate/",format(Sys.Date(),"%Y%m%d"),"_check_site_locations.csv",sep=""),row.names = FALSE)
 
-# Add flag to sites outside of CONUS:
-sites_full_sp_export <- sites_full_sp %>% mutate(flag = ifelse(sitecode %in% sites_inspect_export$sitecode,"site location not where expected",NA))
+# Manually adjust erroneous CO sites:
+sites_full_sp_fix <- sites_full_sp %>% filter(.,grepl("CO",sitecode)) %>%
+                     mutate(lon = st_coordinates(.)[,1],
+                            lat = st_coordinates(.)[,2]) %>%
+                     st_drop_geometry() %>% 
+                     # for now, manually adjust CO sites where a "2" was typed in for lat instead of a "3"
+                     filter(lat < 30) %>% mutate(lat = lat+10) %>% 
+                     st_as_sf(.,coords=c("lon","lat"),crs=.$epsg_crs_full[1])
+                     
+# Add flag to sites outside of CONUS and export:
+sites_full_sp_export <- sites_full_sp %>% filter(!sitecode %in% sites_full_sp_fix$sitecode) %>%
+                        bind_rows(.,sites_full_sp_fix) %>%
+                        mutate(flag = ifelse(sitecode %in% sites_full_sp_fix$sitecode,"site location not where expected - lat/lon manually adjusted",NA))
+
 saveRDS(sites_full_sp_export,"./output/intermediate/lotic_site_info_filtered.rds")
 
 
