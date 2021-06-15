@@ -39,9 +39,7 @@ lotic_standardized_metabolism <- readRDS("./data/lotic_standardized_metabolism.r
 sites_dat_full <- readRDS("./output/intermediate/lotic_site_info_filtered.rds") 
 unique(sites_dat_full$flag)
 # Create spatial df for full synthesis dataset:
-sites_full_sp <- sites_dat_full %>% 
-                 # omit locations with qa/qc flags:
-                 filter(is.na(flag))
+sites_full_sp <- sites_dat_full
 
 # Load site data from Appling et al. 2018:
 appling_info <- data.table::fread("./data/Appling2018/site_data.tsv",data.table=FALSE)

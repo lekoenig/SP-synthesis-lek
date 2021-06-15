@@ -363,7 +363,6 @@
 "CO_Cameo2","Regional geomorphic scaling coeff",NA,63.2027395759063
 "CO_Forest1","Regional geomorphic scaling coeff",NA,1.00978286782474
 "CO_Forest2","Regional geomorphic scaling coeff",NA,4.63578604381567
-"CO_Forest4","Regional geomorphic scaling coeff",NA,1.38372432576523
 "CO_Meadow1","Regional geomorphic scaling coeff",NA,4.63578604381567
 "CO_Wfresdown5","Regional geomorphic scaling coeff",NA,1.61991949700958
 "CO_Wfresup2","Regional geomorphic scaling coeff",NA,0.799013405097645
@@ -420,3 +419,6 @@
 "VT_SLPR","NWIS field measurements","nwis_01135300",18.1356
 "WI_BEC","NWIS field measurements","nwis_05406457",5.1816
 "WI_BRW","NWIS field measurements","nwis_05406469",4.05384
+"CO_Alpine3","Regional geomorphic scaling coeff",NA,2.26226575254234
+"CO_Forest4","Regional geomorphic scaling coeff",NA,6.78977752310416
+"CO_Forestsite","Regional geomorphic scaling coeff",NA,2.38162087365596
