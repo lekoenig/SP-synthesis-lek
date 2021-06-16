@@ -23,7 +23,9 @@ options(scipen=999)
 # Load sites within StreamPULSE data portal (as of 25 May 2021):
 sites_portal <- read.csv("./data/SP_portal_site_data/all_basic_site_data-2.csv",header=TRUE) %>% 
                 select(regionID,siteID,siteName,dataSource,latitude,longitude,USGSgageID) %>% 
-                mutate(sitecode = paste(regionID,siteID,sep="_"))
+                mutate(sitecode = paste(regionID,siteID,sep="_")) %>%
+                # site CO_Wfresdown1 seems to have two unique siteNames:
+                filter(!duplicated(sitecode))
   # Assign gage number for MD site that is co-located with USGS gage (indicated in an embargoed data set and confirmed by lat/lon):
   sites_portal$USGSgageID[which(sites_portal$sitecode=="MD_DRKR")] <- "01589330"
 
@@ -40,6 +42,7 @@ sites_dat_full <- readRDS("./output/intermediate/lotic_site_info_filtered.rds")
 unique(sites_dat_full$flag)
 # Create spatial df for full synthesis dataset:
 sites_full_sp <- sites_dat_full
+dim(sites_full_sp)
 
 # Load site data from Appling et al. 2018:
 appling_info <- data.table::fread("./data/Appling2018/site_data.tsv",data.table=FALSE)
@@ -256,7 +259,7 @@ calc_width_raymond <- function(site){
   
 } # End
 
-sites$width_raymond <- apply(sites["sitecode"],1,calc_width_raymond)
+sites$width_raymond <- as.numeric(apply(sites["sitecode"],1,calc_width_raymond))
 
 
 ####################################################
@@ -397,13 +400,17 @@ sites_export <- sites %>% select(sitecode,gage_sitename,width_manual,width_reglE
 # Examine distribution:
 quantile(sites_export$width_m,na.rm=T)
 
-sites %>% select(sitecode,width_manual,width_mcmanamay) %>% 
-          rename("New"="width_manual","McManamay"="width_mcmanamay") %>% 
-          pivot_longer(!sitecode,names_to = "width_est", values_to = "width_m") %>%
-          ggplot() + geom_histogram(aes(x=width_m,fill=width_est),color="black") + scale_x_log10() + 
-          ggtitle(label="Distribution of estimated widths for synthesis dataset",subtitle =  "note log scale") + 
-          scale_fill_manual(values=c("#5ab4ac","#d8b365"),name="Width estimate") + theme_classic() 
-                    
+sites %>% select(sitecode,gage_sitename,width_manual,width_reglEPA,source,width_mcmanamay) %>%
+  mutate(usgs_gagename = ifelse(!is.na(gage_sitename),paste("nwis_",gage_sitename,sep=""),NA)) %>% 
+  mutate(width_export = ifelse(is.na(width_manual),width_reglEPA,width_manual)) %>%
+  rename("New"="width_export","McManamay"="width_mcmanamay") %>% 
+  select(sitecode,New,McManamay) %>% 
+  pivot_longer(!sitecode,names_to = "width_est", values_to = "width_m") %>%
+  ggplot() + geom_histogram(aes(x=width_m,fill=width_est),color="black") + scale_x_log10() + 
+  ggtitle(label="Distribution of estimated widths for synthesis dataset",subtitle =  "note log scale") + 
+  scale_fill_manual(values=c("#5ab4ac","#d8b365"),name="Width estimate") + theme_classic() 
+            
+        
 ## ============================================================ ##
 ##                     Create a metadata file                   ##
 ## ============================================================ ##

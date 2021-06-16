@@ -360,12 +360,20 @@
 "AZ_SC","NWIS field measurements","nwis_09510200",10.3632
 "AZ_WB","NWIS field measurements","nwis_09505200",9.144
 "CO_Alpine2","Regional geomorphic scaling coeff",NA,3.4239831289665
+"CO_Alpine3","Regional geomorphic scaling coeff",NA,2.26226575254234
+"CO_Cameo1","Regional geomorphic scaling coeff",NA,63.1548165982443
 "CO_Cameo2","Regional geomorphic scaling coeff",NA,63.2027395759063
 "CO_Forest1","Regional geomorphic scaling coeff",NA,1.00978286782474
 "CO_Forest2","Regional geomorphic scaling coeff",NA,4.63578604381567
+"CO_Forest4","Regional geomorphic scaling coeff",NA,6.78977752310416
+"CO_Forestsite","Regional geomorphic scaling coeff",NA,2.38162087365596
 "CO_Meadow1","Regional geomorphic scaling coeff",NA,4.63578604381567
+"CO_Wfresdown","Regional geomorphic scaling coeff",NA,11.4845064008425
+"CO_Wfresdown1","Regional geomorphic scaling coeff",NA,11.4845064008425
 "CO_Wfresdown5","Regional geomorphic scaling coeff",NA,1.61991949700958
+"CO_Wfresup","Regional geomorphic scaling coeff","nwis_09037500",10.280519220615
 "CO_Wfresup2","Regional geomorphic scaling coeff",NA,0.799013405097645
+"CO_WindyGap1","Regional geomorphic scaling coeff",NA,20.6808405303127
 "CO_WindyGap2","Regional geomorphic scaling coeff",NA,1.25426705539157
 "CT_BUNN","NWIS field measurements","nwis_01188000",2.9718
 "CT_FARM","NWIS field measurements","nwis_01189995",62.1792
@@ -384,6 +392,10 @@
 "FL_WaterOak","Regional geomorphic scaling coeff",NA,2.0654912813773
 "FL_WhiteSprings","NWIS field measurements","nwis_02315500",36.576
 "FL_WS1500","NWIS field measurements","nwis_02321500",36.576
+"IN_SDW","Regional geomorphic scaling coeff","nwis_03331224",4.47319266721219
+"KS_KANSASR","Regional geomorphic scaling coeff","nwis_06892350",123.736952548749
+"KS_KANSASREASTLAWRENCE","Regional geomorphic scaling coeff",NA,123.198218389107
+"KS_KANSASRFALLLEAF","Regional geomorphic scaling coeff",NA,123.220411014977
 "MD_BARN","Regional geomorphic scaling coeff",NA,2.66341526202075
 "MD_DRKR","NWIS field measurements","nwis_01589330",6.7056
 "MD_GFCP","Regional geomorphic scaling coeff",NA,18.0185268720262
@@ -395,6 +407,9 @@
 "MI_PILG6","Regional geomorphic scaling coeff",NA,8.74067741630705
 "MI_PILGNF15","Regional geomorphic scaling coeff",NA,5.02037255920224
 "MI_PILGSF16","Regional geomorphic scaling coeff",NA,1.93844628745765
+"MI_SILVER","Regional geomorphic scaling coeff","nwis_04043150",14.3637076389016
+"MI_TOBACCO","Regional geomorphic scaling coeff",NA,12.1779453843785
+"MI_TRAPROCK","Regional geomorphic scaling coeff","nwis_04043050",1.84510429994762
 "NC_Eno","NWIS field measurements","nwis_02085000",11.2776
 "NC_MC751","Regional geomorphic scaling coeff",NA,2.63337010890945
 "NC_Mud","StreamPULSE estimates",NA,2.82
@@ -413,12 +428,10 @@
 "NH_TPB","StreamPULSE estimates",NA,3.4905
 "NH_WHB","StreamPULSE estimates",NA,0.975
 "RI_CorkBrk","NWIS field measurements","nwis_01115280",2.07264
+"UT_Potash","Regional geomorphic scaling coeff","nwis_09185600",110.405453191904
 "VT_MOOS","NWIS field measurements","nwis_01134500",18.8976
 "VT_Pass","NWIS field measurements","nwis_01135500",39.9288
 "VT_POPE","NWIS field measurements","nwis_01135150",3.81
 "VT_SLPR","NWIS field measurements","nwis_01135300",18.1356
 "WI_BEC","NWIS field measurements","nwis_05406457",5.1816
 "WI_BRW","NWIS field measurements","nwis_05406469",4.05384
-"CO_Alpine3","Regional geomorphic scaling coeff",NA,2.26226575254234
-"CO_Forest4","Regional geomorphic scaling coeff",NA,6.78977752310416
-"CO_Forestsite","Regional geomorphic scaling coeff",NA,2.38162087365596

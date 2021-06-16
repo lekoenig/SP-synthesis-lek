@@ -62,6 +62,8 @@ sites_full_sp_fix <- sites_full_sp %>% filter(.,grepl("CO",sitecode)) %>%
 # Add flag to sites outside of CONUS and export:
 sites_full_sp_export <- sites_full_sp %>% filter(!sitecode %in% sites_full_sp_fix$sitecode) %>%
                         bind_rows(.,sites_full_sp_fix) %>%
+                        # site CO_Wfresdown1 seems to have two unique siteNames:
+                        filter(!duplicated(sitecode)) %>% 
                         mutate(flag = ifelse(sitecode %in% sites_full_sp_fix$sitecode,"site location not where expected - lat/lon manually adjusted",NA))
 
 saveRDS(sites_full_sp_export,"./output/intermediate/lotic_site_info_filtered.rds")
