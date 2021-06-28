@@ -324,7 +324,7 @@ compare_comid_subflags <- compare_comid %>% filter(sitecode %in% flagged_sites) 
                           select(-c(reachcode_flineindex,orig_div,orig_dendr))
 
 # Export data frame containing info. for manually-adjusted sites:
-write.csv(compare_comid_subflags,paste("./output/",format(Sys.Date(),"%Y%m%d"),"_flagged_sites_checkcomid.csv",sep=""),row.names = FALSE)
+write.csv(compare_comid_subflags,paste("./output/intermediate/",format(Sys.Date(),"%Y%m%d"),"_flagged_sites_checkcomid.csv",sep=""),row.names = FALSE)
 
 
 #########################################################
