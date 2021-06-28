@@ -18,7 +18,7 @@ library(tigris)        # interface with U.S. census data to retrieve CONUS shape
 ####################################################
 
 # Load sites with estimated metabolism:
-sites_dat_full <- readRDS("./data/lotic_site_info.rds") %>% rename("sitecode"="Site_ID")
+sites_dat_full <- readRDS("./data/lotic_site_info_full.rds") %>% rename("sitecode"="Site_ID")
 
 # scan unique epsg codes:
 print(unique(sites_dat_full$epsg_crs))
@@ -50,23 +50,25 @@ print(sites_inspect[,c("sitecode","Name","Source")])
 sites_inspect_export <- sites_inspect %>% st_drop_geometry() %>% select(-epsg_crs_full)
 write.csv(sites_inspect_export,paste("./output/intermediate/",format(Sys.Date(),"%Y%m%d"),"_check_site_locations.csv",sep=""),row.names = FALSE)
 
-# Manually adjust erroneous CO sites:
-sites_full_sp_fix <- sites_full_sp %>% filter(.,grepl("CO",sitecode)) %>%
-                     mutate(lon = st_coordinates(.)[,1],
-                            lat = st_coordinates(.)[,2]) %>%
-                     st_drop_geometry() %>% 
-                     # for now, manually adjust CO sites where a "2" was typed in for lat instead of a "3"
-                     filter(lat < 30) %>% mutate(lat = lat+10) %>% 
-                     st_as_sf(.,coords=c("lon","lat"),crs=.$epsg_crs_full[1])
+# Manually adjust erroneous CO sites, 6/25/2021-sites have been fixed:
+#sites_full_sp_fix <- sites_full_sp %>% filter(.,grepl("CO",sitecode)) %>%
+#                     mutate(lon = st_coordinates(.)[,1],
+#                            lat = st_coordinates(.)[,2]) %>%
+#                     st_drop_geometry() %>% 
+#                     # for now, manually adjust CO sites where a "2" was typed in for lat instead of a "3"
+#                     filter(lat < 30) %>% mutate(lat = lat+10) %>% 
+#                     st_as_sf(.,coords=c("lon","lat"),crs=.$epsg_crs_full[1])
                      
-# Add flag to sites outside of CONUS and export:
-sites_full_sp_export <- sites_full_sp %>% filter(!sitecode %in% sites_full_sp_fix$sitecode) %>%
-                        bind_rows(.,sites_full_sp_fix) %>%
+# Add flag to sites outside of CONUS and export (6/25/2021-commented out lines no longer relevant due to Phil's data fixes):
+sites_full_sp_export <- sites_full_sp %>% 
+                        #filter(!sitecode %in% sites_full_sp_fix$sitecode) %>%
+                        #bind_rows(.,sites_full_sp_fix) %>%
                         # site CO_Wfresdown1 seems to have two unique siteNames:
-                        filter(!duplicated(sitecode)) %>% 
-                        mutate(flag = ifelse(sitecode %in% sites_full_sp_fix$sitecode,"site location not where expected - lat/lon manually adjusted",NA))
+                        #filter(!duplicated(sitecode)) %>% 
+                        #mutate(location_flag = ifelse(sitecode %in% sites_full_sp_fix$sitecode,"site location not where expected - lat/lon manually adjusted",NA))
+                        mutate(location_flag = NA)
 
-saveRDS(sites_full_sp_export,"./output/intermediate/lotic_site_info_filtered.rds")
+saveRDS(sites_full_sp_export,"./output/intermediate/lotic_site_info_full_sitelistqaqc.rds")
 
 
 

@@ -18,7 +18,7 @@ library(nhdplusTools)  # interface with national hydrography dataset
 ####################################################
 
 # Load sites with estimated metabolism:
-sites_full_sp <- readRDS("./output/intermediate/lotic_site_info_filtered.rds") 
+sites_full_sp <- readRDS("./output/intermediate/lotic_site_info_full_sitelistqaqc.rds") 
 unique(sites_full_sp$flag)
 dim(sites_full_sp)
 
@@ -244,7 +244,7 @@ print(diff)
 
 mapview(point,col.region="red") + 
 mapview(flowline[which(flowline$COMID==diff$comid_orig),],color="blue")+
-mapview(flowline[which(flowline$COMID==diff$comid_nwis),],color="orange")+
+mapview(flowline[which(flowline$COMID==diff$nhdplus_id),],color="orange")+
 mapview(flowline[which(flowline$COMID==diff$comid_flineindex),],color="purple")+
 mapview(flowline[which(flowline$COMID==diff$comid_checkdist),],color="green")
 
@@ -253,52 +253,115 @@ mapview(flowline[which(flowline$COMID==diff$comid_checkdist),],color="green")
 ##             Export flagged site codes          ##
 ####################################################
 
-flagged_sites <- c("nwis_01540500","nwis_03298200","nwis_06805500",
-           "nwis_11126000","nwis_14202650","nwis_12101100",
+flagged_sites <- c("nwis_01540500","nwis_03298200","nwis_06805500","nwis_07381600",
+           "nwis_11126000","nwis_14202650","nwis_12101100","nwis_01184000",
            "nwis_13206400","MD_POBR","NH_BDC","NH_MCQ","NH_HBF")
 
 # Gather watershed areas for sites with manually-adjusted comid (and no nwis area):
 area_nwis12101100 <- read_sf("./data/Appling2018/catchment_shapefile/catchment_shapefile.shp") %>% filter(site_nm == "nwis_12101100") %>%
-                     st_transform(.,5070) %>% mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric()
+                     st_transform(.,5070) %>% mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% 
+                     as.numeric() %>% round(.,digits=2)
+area_nwis13206400 <- read_sf("./data/Appling2018/catchment_shapefile/catchment_shapefile.shp") %>% filter(site_nm == "nwis_13206400") %>%
+                     st_transform(.,5070) %>% mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% 
+                     as.numeric() %>% round(.,digits=2)
+area_nwis07381600 <- read_sf("./data/Appling2018/catchment_shapefile/catchment_shapefile.shp") %>% filter(site_nm == "nwis_07381600") %>%
+                     st_transform(.,5070) %>% mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% 
+                     as.numeric() %>% round(.,digits=2)
 area_NH_BDC <- read_sf("./data/NH_site_data/NH_BDC_StreamStats/globalwatershed.shp") %>% st_transform(.,5070) %>%
-               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric()
+               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric() %>% round(.,digits=2)
 area_NH_MCQ <- read_sf("./data/NH_site_data/NH_MCQ_MShattuck/MCQ.shp") %>% st_transform(.,5070) %>%
-               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric()
+               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric() %>% round(.,digits=2)
 area_NH_HBF <- read_sf("./data/NH_site_data/NH_HBF_LTER/hbef_wsheds/hbef_wsheds.shp") %>% filter(WS=="WS3") %>% st_transform(.,5070) %>%
-               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric()
-area_MD_POBR <- readNWISsite("01583570") %>% mutate(area_km2 = drain_area_va*2.58999) %>% select(area_km2) %>% as.numeric()
+               mutate(area_km2 = st_area(.)/(1000*1000)) %>% select(area_km2) %>% st_drop_geometry() %>% as.numeric() %>% round(.,digits=2)
+area_MD_POBR <- dataRetrieval::readNWISsite("01583570") %>% mutate(area_km2 = drain_area_va*2.58999) %>% select(area_km2) %>% as.numeric() %>% round(.,digits=2)
 
 # Prep data frame containing info. for manually-adjusted sites:
 compare_comid_subflags <- compare_comid %>% filter(sitecode %in% flagged_sites) %>%
                           mutate(
                           comid_manual = case_when(
-                            sitecode=="nwis_01540500" ~ as.character(2604993),
+                            sitecode=="nwis_01540500" ~ as.character(2604977),
                             sitecode=="nwis_03298200" ~ as.character(10264164),
                             sitecode=="nwis_06805500" ~ as.character(17416032),
                             sitecode=="nwis_11126000" ~ as.character(17610189),
                             sitecode=="nwis_14202650" ~ as.character(23805136),
                             sitecode=="nwis_12101100" ~ as.character(23982435),
                             sitecode=="nwis_13206400" ~ as.character(23400535),
+                            sitecode=="nwis_01184000" ~ as.character(7700898),
+                            sitecode=="nwis_07381600" ~ as.character(15182073),
                             sitecode=="MD_POBR" ~ "NA",
                             sitecode=="NH_BDC" ~ "NA",
                             sitecode=="NH_MCQ" ~ "NA",
                             sitecode=="NH_HBF" ~ "NA"),
                           manual_areakm2 = case_when(
+                              sitecode=="nwis_01540500" ~ flowline$TotDASqKM[which(flowline$COMID==2604977)],
+                              sitecode=="nwis_03298200" ~ flowline$TotDASqKM[which(flowline$COMID==10264164)],
+                              sitecode=="nwis_06805500" ~ flowline$TotDASqKM[which(flowline$COMID==17416032)],
+                              sitecode=="nwis_11126000" ~ flowline$TotDASqKM[which(flowline$COMID==17610189)],
+                              sitecode=="nwis_14202650" ~ flowline$TotDASqKM[which(flowline$COMID==23805136)],
                               sitecode=="nwis_12101100" ~ area_nwis12101100,
+                              sitecode=="nwis_13206400" ~ area_nwis13206400,
+                              sitecode=="nwis_01184000" ~ flowline$TotDASqKM[which(flowline$COMID==7700898)],
+                              sitecode=="nwis_07381600" ~ area_nwis07381600,
                               sitecode=="MD_POBR" ~ area_MD_POBR,
                               sitecode=="NH_BDC" ~ area_NH_BDC,
                               sitecode=="NH_MCQ" ~ area_NH_MCQ,
                               sitecode=="NH_HBF" ~ area_NH_HBF),
                           manual_area_src = case_when(
                             sitecode=="nwis_12101100" ~ "Appling2018_StreamStats",
-                            sitecode=="MD_POBR" ~ "NWIS_01583570",
+                            sitecode=="nwis_13206400" ~ "Appling2018_StreamStats",
+                            sitecode=="nwis_07381600" ~ "Appling2018_USGS2013",
+                            sitecode=="nwis_01540500" ~ "NHDV2_vaa",
+                            sitecode=="nwis_03298200" ~ "NHDV2_vaa",
+                            sitecode=="nwis_06805500" ~ "NHDV2_vaa",
+                            sitecode=="nwis_11126000" ~ "NHDV2_vaa",
+                            sitecode=="nwis_14202650" ~ "NHDV2_vaa",
+                            sitecode=="nwis_01184000" ~ "NHDV2_vaa",
+                            sitecode=="MD_POBR" ~ "nwis_site_description",
                             sitecode=="NH_BDC" ~ "StreamStats",
-                            sitecode=="NH_MCQ" ~ "LocalUser_UNHWQAL",
-                            sitecode=="NH_HBF" ~ "LocalUser_LTER")
+                            sitecode=="NH_MCQ" ~ "localuser_UNHWQAL",
+                            sitecode=="NH_HBF" ~ "localuser_HBFLTER")
                             ) %>%
                           select(-c(reachcode_flineindex,orig_div,orig_dendr))
 
+# Export data frame containing info. for manually-adjusted sites:
 write.csv(compare_comid_subflags,paste("./output/",format(Sys.Date(),"%Y%m%d"),"_flagged_sites_checkcomid.csv",sep=""),row.names = FALSE)
 
 
+#########################################################
+##     Export new COMIDs based on manual adjustments   ##
+#########################################################
+
+# Assign all comids (either keep original comid assignment or, in the case of flagged sites, replace with comid_manual):
+for(i in seq_along(compare_comid$sitecode)){
+compare_comid$comid_define[i] <- ifelse(compare_comid$sitecode[i] %in% compare_comid_subflags$sitecode,
+                                     compare_comid_subflags$comid_manual[which(compare_comid_subflags$sitecode==compare_comid$sitecode[i])],
+                                     compare_comid$comid_orig[i])
+}
+compare_comid$comid_define <- as.integer(compare_comid$comid_define)
+
+# Look up vpu for adjusted comid's:
+nhd_subset <- subset_nhdplus(comids = compare_comid$comid_define[which(!is.na(compare_comid$comid_define))],
+                             output_file = tempfile(fileext = ".gpkg"),
+                             nhdplus_data = "download", 
+                             flowline_only = TRUE,
+                             return_data = TRUE)
+nhd_dat <- st_drop_geometry(nhd_subset$NHDFlowline_Network)
+
+# Prep data frame for export:
+comid_fixes_export <- left_join(compare_comid,nhd_dat[,c("comid","totdasqkm","vpuid")],by=c("comid_define"="comid")) %>%
+                        mutate(vpuid = ifelse(is.na(vpuid),VPU,vpuid)) %>%
+                        select(sitecode,comid_orig,comid_define,vpuid,totdasqkm) %>%
+                        rename("comid_old" = "comid_orig","comid_new"="comid_define","totdasqkm_comidnew" = "totdasqkm")
+# Add ws areas:
+for(i in seq_along(comid_fixes_export$sitecode)){
+  comid_fixes_export$ws_area_km2[i] = ifelse(comid_fixes_export$sitecode[i] %in% compare_comid_subflags$sitecode,
+                                      compare_comid_subflags$manual_areakm2[which(compare_comid_subflags$sitecode==comid_fixes_export$sitecode[i])],
+                                      comid_fixes_export$totdasqkm_comid[i])
+  comid_fixes_export$ws_area_src[i] = ifelse(comid_fixes_export$sitecode[i] %in% compare_comid_subflags$sitecode,
+                                      compare_comid_subflags$manual_area_src[which(compare_comid_subflags$sitecode==comid_fixes_export$sitecode[i])],
+                                      "NHDV2_vaa")
+}
+                        
+# Export data frame containing comid fixes:
+write.csv(comid_fixes_export,paste("./output/intermediate/",format(Sys.Date(),"%Y%m%d"),"_synthesis_fullset_comidfixes.csv",sep=""),row.names = FALSE)
 

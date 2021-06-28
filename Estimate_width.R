@@ -25,64 +25,54 @@ sites_portal <- read.csv("./data/SP_portal_site_data/all_basic_site_data-2.csv",
                 select(regionID,siteID,siteName,dataSource,latitude,longitude,USGSgageID) %>% 
                 mutate(sitecode = paste(regionID,siteID,sep="_")) %>%
                 # site CO_Wfresdown1 seems to have two unique siteNames:
-                filter(!duplicated(sitecode))
-  # Assign gage number for MD site that is co-located with USGS gage (indicated in an embargoed data set and confirmed by lat/lon):
-  sites_portal$USGSgageID[which(sites_portal$sitecode=="MD_DRKR")] <- "01589330"
-
-  # Restore leading zeros for usgs gage names shorter than 8-character minimum:
-  sites_portal$USGSgageID_fix <- ifelse(nchar(sites_portal$USGSgageID)==7,paste(0,sites_portal$USGSgageID,sep=""),sites_portal$USGSgageID)
+                filter(!duplicated(sitecode)) %>%
+                # Assign gage number for MD sites that are co-located with USGS gage (indicated in an embargoed data set and confirmed by lat/lon):
+                mutate(USGSgageID = case_when(
+                  sitecode == "MD_BARN" ~ 01583580,
+                  sitecode == "MD_DRKR" ~ 01589330,
+                  sitecode == "MD_POBR" ~ 01583570,
+                  sitecode == "MD_GFCP" ~ 01589352,
+                  sitecode == "MD_GFGB" ~ 01589197,
+                  sitecode == "MD_GFVN" ~ 01589300,
+                  sitecode == "MD_MCDN" ~ 01589238,
+                  TRUE ~ USGSgageID)
+                  ) %>%
+                # restore leading zeros for usgs gage names shorter than 8-character minimum:
+                mutate(USGSgageID_fix = ifelse(nchar(USGSgageID)==7,paste(0,USGSgageID,sep=""),USGSgageID))
 
 # Load StreamPULSE synthesis sites (stat subset):
 sites_dat <- read.csv("./data/streampulse_synthesis_statset.csv",header=TRUE,stringsAsFactors = FALSE) %>% rename(.,"width_mcmanamay"="width")
-sites_sp <- st_as_sf(sites_dat,coords=c("lon","lat"),crs = 4326) 
 
-# Load sites with estimated metabolism:
-lotic_standardized_metabolism <- readRDS("./data/lotic_standardized_metabolism.rds")
-sites_dat_full <- readRDS("./output/intermediate/lotic_site_info_filtered.rds") 
-unique(sites_dat_full$flag)
-# Create spatial df for full synthesis dataset:
-sites_full_sp <- sites_dat_full
+# Load sites with estimated metabolism (data files from Phil updated 6/25/2021):
+lotic_standardized_metabolism <- readRDS("./data/lotic_standardized_full.rds")
+sites_full_sp <- readRDS("./output/intermediate/lotic_site_info_full_sitelistqaqc.rds") 
+unique(sites_full_sp$flag)
 dim(sites_full_sp)
 
 # Load site data from Appling et al. 2018:
 appling_info <- data.table::fread("./data/Appling2018/site_data.tsv",data.table=FALSE)
 
-# Find associated VPUID for each site (needed for regional hydraulic geometry relationships below):
-    # 1. find nhdplus flowlines comid:  
-    for(i in seq_along(sites_full_sp$sitecode)){
-      sites_full_sp$comid[i] <- discover_nhdplus_id(sites_full_sp[i,])
-      print(i)
-    } 
+# Load comid's including fixed comid's based on manual inspection (see join_nhd.R):
+sites_full_comidfixes <- read.csv("./output/intermediate/20210625_synthesis_fullset_comidfixes.csv")
 
-    # 2. download flowlines for each comid identified above and extract vpu from VAA table:
-    subset <- subset_nhdplus(comids = sites_full_sp$comid,
-                            output_file = tempfile(fileext = ".gpkg"),
-                            nhdplus_data = "download", 
-                            flowline_only = TRUE,
-                            return_data = TRUE)
-    nhd_dat <- st_drop_geometry(subset$NHDFlowline_Network)
-    
-    # 3. Join sites to NHD information, flags indicating influence of dams, and portal information indicating co-located usgs gage:
-    sites_nhd <- left_join(st_drop_geometry(sites_full_sp),nhd_dat[,c("comid","vpuid","totdasqkm")],by="comid") %>% 
-                 left_join(.,appling_info[,c("site_name","struct.dam_flag")],by=c("sitecode"="site_name")) %>%
-                 left_join(.,sites_portal[,c("sitecode","USGSgageID_fix")],by="sitecode") %>%
-                 left_join(.,sites_dat[,c("sitecode","width_mcmanamay")],by="sitecode") %>%
-                 # Add gage name in addition to sitecode, which indicates the name used in the metabolism synthesis:
-                 mutate(USGSgage_name = ifelse(grepl("nwis",sitecode),substr(sitecode,start=6,stop=30),USGSgageID_fix)) %>%
-                 rename("ws_area_km2" = "totdasqkm")
+#Join sites to NHD information, flags indicating influence of dams, and portal information indicating co-located usgs gage:
+sites_nhd <- left_join(sites_full_comidfixes,appling_info[,c("site_name","struct.dam_flag")],by=c("sitecode"="site_name")) %>%
+             left_join(.,sites_portal[,c("sitecode","USGSgageID_fix")],by="sitecode") %>%
+             left_join(.,sites_dat[,c("sitecode","width_mcmanamay")],by="sitecode") %>%
+             # Add gage name in addition to sitecode, which indicates the name used in the metabolism synthesis:
+             mutate(USGSgage_name = ifelse(grepl("nwis",sitecode),substr(sitecode,start=6,stop=30),USGSgageID_fix)) 
     
 # Load manually-estimated widths and join with synthesis site data:
-    # Google Earth:
+    # Google Earth (initial subset, n=50):
     widths_manual_GE <- read.csv("./data/manual_width_by_imagery/sites_manual_width_ge.csv",header=TRUE)
     widths_GE <- widths_manual_GE %>% select(!c(lat,lon,comments)) %>% 
                   pivot_longer(!sitecode, names_to = "width_xsection", values_to = "value") %>% 
                   group_by(sitecode) %>% summarize(width_m_GE = median(value,na.rm=T))
     
-    # ArcMap:
-      # Load initial subset (n=50):
-      widths_manual_arc <- read.csv("./data/manual_width_by_imagery/sites_manual_width_arc.csv",header=TRUE)
-      widths_arc <- widths_manual_arc %>% select(!OID) %>% rename("width_xsection"="xsection","value"="width_m") %>%
-                    group_by(sitecode) %>% summarize(width_m_arc = median(value,na.rm=T))
+    # ArcMap (initial subset, n=50):
+    widths_manual_arc <- read.csv("./data/manual_width_by_imagery/sites_manual_width_arc.csv",header=TRUE)
+    widths_arc <- widths_manual_arc %>% select(!OID) %>% rename("width_xsection"="xsection","value"="width_m") %>%
+                  group_by(sitecode) %>% summarize(width_m_arc = median(value,na.rm=T))
     
     # USGS in situ field measurements:
       # Define function to retrieve usgs-measured widths:
@@ -92,23 +82,13 @@ appling_info <- data.table::fread("./data/Appling2018/site_data.tsv",data.table=
         metab_dat <- lotic_standardized_metabolism[[which(names(lotic_standardized_metabolism)==metab_sitename)]]
         metab_rng <- range(metab_dat$Date)
         
-        # Convert m3/s to cfs and find discharge range: 
-        # *Note that Q data for MD_DRKR appears to be in L/s rather than m3/s:
-        if(metab_sitename == "MD_DRKR"){
-          q_rng <- range(metab_dat$discharge/1000*35.3147,na.rm=T)
-        } else {
-          q_rng <- range(metab_dat$discharge*35.3147,na.rm=T)
-        }
-        # Find field measurements within metabolism date/discharge ranges:
+        # Find field measurements within metabolism date range:
         width_df <- readNWISmeas(siteNumbers=gage_sitename,expanded = TRUE) %>%
                     filter(measurement_dt > metab_rng[1] & measurement_dt < metab_rng[2]) %>%
-                    #readNWISmeas(siteNumbers=gage_sitename,expanded = TRUE,startDate = metab_rng[1],endDate = metab_rng[2]) %>%
-                    # filter measurements that fall within range of metabolism discharge:
-                    filter(discharge_va > q_rng[1] & discharge_va < q_rng[2]) %>%
                     # summarize in situ widths:
                     select(measurement_dt,chan_width) %>% mutate(width_m = chan_width*0.3048) %>%
                     summarize(width_m = median(width_m,na.rm=T),n = n())
-
+        
         return(width_df)
       }
       
@@ -123,8 +103,7 @@ appling_info <- data.table::fread("./data/Appling2018/site_data.tsv",data.table=
         width_df <- tryCatch(
           {get_usgs_widths(metab_sitename = usgs_dat$sitecode[i],
                            gage_sitename = usgs_dat$gage_sitename[i])},
-          error=function(cond){return(NA)},
-          warning=function(cond){return(NA)})
+          error=function(cond){return(NA)})
       
       usgs_dat$width_m_usgs[i] <- ifelse(length(width_df)>1,width_df$width_m,NA)
       usgs_dat$n_dates_meas_usgs[i] <- ifelse(length(width_df)>1,width_df$n,NA)
@@ -269,9 +248,6 @@ sites$width_raymond <- as.numeric(apply(sites["sitecode"],1,calc_width_raymond))
 # Coefficients estimated based on EPA NRSA and WSA data, see: https://github.com/lekoenig/US-hydraulic-geometry.git
 sites$width_natlEPA <- 10^((log10(sites$ws_area_km2) * 0.455)-0.06)
 
-# For site in Florida with 0 upstream area, set width to NA:
-sites$width_natlEPA[which(sites$ws_area_km2==0)] <- NA
-
 
 ####################################################
 ##             Widths: EPA Regional               ##
@@ -284,9 +260,6 @@ reg_coef <- read.csv("./data/RegionalHydraulicCoef.csv",header=TRUE,stringsAsFac
 # Join sites with regional coefficients and estimate width:
 sites <- left_join(sites,reg_coef[,c("HUC02","coef_slope","coef_int")],by=c("vpuid"="HUC02"))
 sites$width_reglEPA <- 10^((log10(sites$ws_area_km2) * sites$coef_slope)+sites$coef_int)
-
-# For site in Florida with 0 upstream area, set width to NA:
-sites$width_reglEPA[which(sites$ws_area_km2==0)] <- NA
 
 
 ####################################################
@@ -386,20 +359,22 @@ sites %>% filter(!grepl('nwis', sitecode)) %>% select(sitecode) %>% filter(! sit
 
 # Which sites will we need to estimate by satellite imagery or hydraulic geometry?
 need_est <- sites[which(is.na(sites$width_m_SP)&is.na(sites$width_m_usgs)),c("sitecode")]
-length(need_est) # out of 421 sites in the full dataset
+length(need_est) # out of 436 sites in the full dataset
 print(need_est)
 
 # Assign estimated widths and export table:
-sites_export <- sites %>% select(sitecode,gage_sitename,width_manual,width_reglEPA,source) %>%
+sites_export <- sites %>% select(sitecode,gage_sitename,comid_old,comid_new,vpuid,ws_area_km2,ws_area_src,
+                                 width_manual,width_reglEPA,source) %>%
                 mutate(usgs_gagename = ifelse(!is.na(gage_sitename),paste("nwis_",gage_sitename,sep=""),NA)) %>% 
                 mutate(width_export = ifelse(is.na(width_manual),width_reglEPA,width_manual)) %>%
-                select(-c(gage_sitename,width_manual,width_reglEPA)) %>%
                 mutate(source = gsub("Need other estimate","Regional geomorphic scaling coeff", source)) %>%
-                rename("width_src" = "source","width_m" = "width_export")
+                rename("width_src" = "source","width_m" = "width_export") %>% 
+                select(sitecode,usgs_gagename,comid_old,comid_new,vpuid,ws_area_km2,ws_area_src,width_m,width_src)
 
 # Examine distribution:
 quantile(sites_export$width_m,na.rm=T)
 
+# Compare distribution of estimated widths against McManamay estimates:
 sites %>% select(sitecode,gage_sitename,width_manual,width_reglEPA,source,width_mcmanamay) %>%
   mutate(usgs_gagename = ifelse(!is.na(gage_sitename),paste("nwis_",gage_sitename,sep=""),NA)) %>% 
   mutate(width_export = ifelse(is.na(width_manual),width_reglEPA,width_manual)) %>%
@@ -416,13 +391,18 @@ sites %>% select(sitecode,gage_sitename,width_manual,width_reglEPA,source,width_
 ## ============================================================ ##
 
 # Define variable descriptions:
-var_names <- c("Site name used in metabolism synthesis (Bernhardt et al.)","Associated USGS gage name","Estimated site width in meters","Width data source")
+var_names <- c("Site name used in metabolism synthesis (Bernhardt et al.)",
+               "Associated USGS gage name",
+               "Paired flowline comid derived using nhdplusTools::discover_nhdplusid helper function",
+               "Paired flowline comid based on manual inspection of comid_old",
+               "VPU containing paired flowline",
+               "Watershed area in km2",
+               "Source of watershed area estimates",
+               "Estimated site width in meters",
+               "Source of river width estimates")
              
 # Define variable types (1=include all options for given variable):              
-var_type <- c(0,0,1,0)
-
-# Define categorical variables (variables where type == 1):
-opt_descrip2 <- c("Site name used in metabolism synthesis (Bernhardt et al.)","Associated USGS gage name","Estimated site width in meters","Width data source","Width data source")
+var_type <- c(0,0,0,0,0,0,1,0,1)
 
 # Create data dictionary:
 linker <- build_linker(sites_export, variable_description = var_names, variable_type = var_type)

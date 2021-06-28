@@ -5,6 +5,6 @@ My code contributions to StreamPULSE metabolism synthesis
 - Note that Estimate_width.R references hydraulic geometry coefficients derived [here](https://github.com/lekoenig/US-hydraulic-geometry.git)
 - Instructions to run script:
   1. Run sitelist_qaqc.R to check that site locations plot where expected (within continental U.S.)  
-  2. Optional: run join_nhd.R to estimate associated nhdplusv2 flowline by multiple methods. Includes manual inspection of a subset of sites.  
-  3. Run Estimate_width.R to compile measurements and estimates of width for all sites within the StreamPULSE synthesis dataset  
+  2. Optional: run join_nhd.R to estimate associated nhdplusv2 flowline by multiple methods. Includes manual inspection of a subset of sites. Output is a file named "synthesis_fullset_comidfixes.csv" that specifies the linked comid's after manual inspection.  
+  3. Run Estimate_width.R to compile measurements and estimates of width for all sites within the StreamPULSE synthesis dataset. Output is a file named "synthesis_fullset_width.csv" that specifies linked comid, watershed area, and river width to be used for modeling river light.  
     
