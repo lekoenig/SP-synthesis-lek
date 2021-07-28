@@ -1,0 +1,399 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+---
+<br> 
+  
+#### StreamPULSE synthesis: compare watershed areas  
+##### Lauren Koenig
+*Last updated `r Sys.Date()`*  
+  
+<br>  
+  
+##### The issue 
+  
+Watershed area is used in the StreamPULSE synthesis (Bernhardt et al. In Prep) both as a covariate in the SEM analysis and as a driver of width estimates for sites where we've used geomorphic scaling coefficients to estimate widths (0 sites in the stat-set and 33 sites in the full-set):
+
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+
+## StreamPULSE synthesis: Compare watershed areas
+## Last updated July 2021
+## LE Koenig
+
+# Load packages:
+library(dplyr)         # data manipulation
+library(ggplot2)       # create plots
+library(ggrepel)       # format plots
+library(patchwork)     # format plots
+library(dataRetrieval) # interface with NWIS
+library(sf)            # work with geospatial data
+
+options(scipen=999)
+
+```
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+
+####################################################
+##                    Load data                   ##
+####################################################
+
+# Load summary statset (SP synthesis derived data set):
+statset <- read.csv("./data/SP_synthesis_derived_datasets/20210706_streampulse_synthesis_statset.csv",header=TRUE)
+
+# Load Appling site info (we know we have watexrshed shapefiles for these sites):
+appling_info <- data.table::fread("./data/watershed_boundaries/Appling2018/site_data.tsv",data.table=FALSE)
+                                  
+# Load full synthesis data set:
+fullset <- readRDS("./data/SP_synthesis_derived_datasets/lotic_site_info_full.rds")
+
+```
+
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE,as.is=TRUE}
+
+left_join(fullset %>% group_by(Width_src) %>% summarize(n = n()) %>% rename("n_fullset" = "n"),
+          statset %>% group_by(Width_src) %>% summarize(n = n()) %>% rename("n_statset" = "n"),by="Width_src") %>%
+knitr::kable(.,caption = "Width sources for stat-set and full-set",align = "lcc",format = "html") %>% kableExtra::kable_styling(full_width = FALSE,position = "left")
+          
+```
+
+Right now we're using two methods to estimate watershed area:  
+  
+- Pull watershed area directly from NHDV2 VAA tables (currently called "WS_area_km2" in statset file)  
+- Adjust watershed area by accounting for where the site lies along the paired NHDV2 flowline (currently called "ws_area_km2" in statset file)  
+  
+Although note two exceptions:  
+
+- <span style="color:blue">nwis_07381600</span> is the only site where "WS_area_src" is not equal to nhdv2_vaa, and so the two ws_area columns differ for this site. The Atchafalaya is a distributary of the Mississippi, and it looks like NHD uses the entire upper basin in its watershed area. In Alison's data release she went with a much smaller drainage area from another USGS source (USGS 2013), so Lauren deferred to the smaller drainage area when assigning watershed area. This site represents the largest river by drainage area in the statset, so it might be worth keeping an eye on leverage.  
+- For <span style="color:blue">nwis_02264000</span> "ws_area_km2" has been manually set to zero. This is a small site according to NHD ("WS_area_km2" is 0.81 and so estimated width is less than 5 m), however, Alison sourced the watershed area from GAGESII and reports ws area ~ 75 km$^2$. Mike, do you have any thoughts here or can you explain how you decided to set ws area to 0? Drainage area gets logged in the SEM analysis, so this site effectively gets dropped.  
+  
+**At the end of the day, these values are so close that it's highly unlikely that results or analyses would be impacted by this decision. However, we should go with one for the sake of making the data set/data release more straightforward and interpretable.**  
+
+<br>  
+
+Compare watershed area estimates for the stat-set (for the labeled sites, the two estimates differ by 60% or greater):  
+
+```{r,echo=FALSE,warning=FALSE,fig.height=2.5,fig.width=3}
+
+statset %>% ggplot() +  
+            geom_abline(slope=1,intercept=0,color="gray50",lty=2) +
+            geom_point(aes(x=ws_area_km2,WS_area_km2)) +
+            geom_point(data=filter(statset,sitecode == "nwis_02264000" | sitecode=="nwis_07381600"),aes(x=ws_area_km2,WS_area_km2),color="blue") + 
+            scale_x_log10(breaks=c(1,100,10000,1000000)) + scale_y_log10(breaks=c(1,100,10000,1000000)) + 
+            theme_classic() +
+            geom_label_repel(data=filter(statset,abs((WS_area_km2-ws_area_km2)/WS_area_km2)>.6),
+            aes(x=ws_area_km2,WS_area_km2,label=sitecode))
+    
+```
+
+<br>  
+
+Ideally, I think, we would have delineated watershed boundaries that we use to estimate watershed area. Alison has these for her sites and so, for the *stat-set*, we actually have watershed boundaries for almost all of the sites. No spatial data for:  
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE,results="hide"}
+
+# Gather watershed boundaries:
+
+# 1. Appling data set:
+temp <- tempfile()
+unzip("./data/watershed_boundaries/Appling2018/catchment_shapefile.zip",exdir =  temp)
+appling_shps <- read_sf(paste(temp,"/catchment_shapefile/catchment_shapefile.shp",sep=""),crs=4326) %>%
+                 st_transform(.,5070) %>%
+                 mutate(boundary_src = "Appling_2018") %>%
+                 rename(sitecode = site_nm) %>% 
+                 select(sitecode,boundary_src,geometry) %>%
+                 filter(sitecode %in% fullset$Site_ID)
+# remove unzipped files from directory:
+unlink(temp,recursive = TRUE)
+
+# 2. MD sites from BES LTER (doi: 10.6073/pasta/ad0cce16ef6165913ea26b97e295f985):
+unzip("./data/watershed_boundaries/MD_spatial/BES-Watersheds-Land-Cover-Analysis.zip",exdir =  temp)
+MD_shp_dir <- paste(temp,"/BES-Watersheds-Land-Cover-Analysis/01m/BES Watershed Boundary Shapefiles",sep="")
+MD_shp_files <- grep(list.files(path = MD_shp_dir), pattern=".shp$",value=TRUE)
+
+# Define function to read in all shp files in data directory and append site name to sf object:
+st_read_withname <- function(shp_path){
+  shp_name <- sub(".*/", "", shp_path)
+  name <- substr(shp_name,0,nchar(shp_name)-4)
+  new_shp <- st_read(shp_path,quiet=TRUE) %>% mutate(sitename = name)
+  return(new_shp)
+}
+
+MD_shps <- lapply(file.path(MD_shp_dir,MD_shp_files), st_read_withname) %>%
+           bind_rows() %>% st_transform(.,5070) %>% st_cast(.,"MULTIPOLYGON") %>%
+           mutate(boundary_src = "BES_LTER") %>%
+           mutate(sitecode = case_when(
+              sitename == "Baisman_Run" ~ "MD_BARN",
+              sitename == "Dead_Run" ~ "MD_DRKR",
+              sitename == "Caroll_Park" ~ "MD_GFCP",
+              sitename == "Glyndon" ~ "MD_GFGL",
+              sitename == "Gwynnbrook" ~ "MD_GFGB",
+              sitename == "McDonogh" ~ "MD_MDCN",
+              sitename == "Villa_Nova" ~ "MD_GFVN",
+              sitename == "Pond_Branch" ~ "MD_POBR")) %>%
+           select(sitecode,boundary_src,geometry) %>%
+           filter(sitecode %in% fullset$Site_ID)
+unlink(temp,recursive = TRUE)
+
+# 3. HBF LTER (for NH sites-HBF):
+NH_shps_HB <- read_sf("./data/watershed_boundaries/NH_spatial/NH_HBF_LTER/hbef_wsheds/hbef_wsheds.shp") %>% 
+              st_transform(.,5070) %>% st_cast(.,"MULTIPOLYGON") %>%
+              filter(WS == "WS3") %>% 
+              mutate(boundary_src = "HBF_LTER",
+                     sitecode = "NH_HBF") %>%
+              select(sitecode,boundary_src,geometry) %>%
+              filter(sitecode %in% fullset$Site_ID)
+
+# 4. StreamPULSE sites from StreamStats - NH:
+unzip("./data/watershed_boundaries/NH_spatial/StreamStats.zip",exdir =  temp)
+NH_shp_dir <- paste(temp,"/StreamStats",sep="")
+NH_shp_files <- grep(list.files(path = NH_shp_dir), pattern=".shp$",value=TRUE)
+NH_shps <- lapply(file.path(NH_shp_dir,NH_shp_files), st_read_withname) %>%
+           bind_rows() %>% st_transform(.,5070) %>%
+           st_cast(.,"MULTIPOLYGON") %>%
+           filter(sitename != "NH_HBF") %>% 
+           rename(sitecode = sitename) %>%
+           mutate(boundary_src = "StreamStats") %>%
+           select(sitecode,boundary_src,geometry) %>%
+           filter(sitecode %in% fullset$Site_ID)
+unlink(temp,recursive=TRUE)
+
+# 5. StreamPULSE sites from various sources (core and leveraged sources as of July 2019):
+SP_sites <- read.csv("./data/watershed_boundaries/SP_portal_July2019/SP_drainagearea.csv",header=TRUE) %>%
+              mutate(sitecode = paste(Region,"_",Site,sep=""))
+
+WI_shps <- SP_sites[grep("WI",SP_sites$sitecode),] %>%
+           inner_join(appling_shps,.,by=c("sitecode"="USGS_STATIONID")) %>%
+           select(sitecode.y,boundary_src,geometry) %>% rename("sitecode" = "sitecode.y")
+
+# GAGES
+  # Access GAGESII data set: https://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml#stdorder
+  #download.file(url = "https://water.usgs.gov/GIS/dsdl/boundaries_shapefiles_by_aggeco.zip",destfile = "./data/watershed_boundaries/GAGESII_boundaries.zip")  
+  unzip("./data/watershed_boundaries/GAGESII_boundaries.zip",exdir =  temp)
+  gages_shp_dir <- paste(temp,"/boundaries-shapefiles-by-aggeco",sep="")
+  gages_shp_files <- grep(list.files(path = gages_shp_dir), pattern=".shp$",value=TRUE)
+
+  SP_shps_gagesII <- lapply(file.path(gages_shp_dir,gages_shp_files), st_read,quiet=TRUE) %>%
+                     bind_rows() %>% st_transform(.,5070) %>% 
+                     st_cast(.,"MULTIPOLYGON") %>%
+                     mutate(sitecode = paste("nwis_",GAGE_ID,sep=""),
+                            boundary_src = "gagesii_basins") %>%
+                     inner_join(.,SP_sites,by=c("sitecode"="USGS_STATIONID")) %>% 
+                     select(sitecode.y,boundary_src,geometry) %>%
+                     rename("sitecode" = "sitecode.y") %>%
+                     filter(!sitecode %in% c("MD_DRKR","MD_GFGB","MD_GFVN","MD_GFCP","MD_BARN","MD_POBR")) 
+  unlink(temp,recursive=TRUE)
+  
+# StreamStats
+  unzip("./data/watershed_boundaries/SP_portal_July2019/StreamStats.zip",exdir = temp)
+  strstats_shp_dir <- paste(temp,"/StreamStats",sep="")
+  strstats_shp_files <- grep(list.files(path = strstats_shp_dir), pattern=".shp$",value=TRUE)
+
+  SP_shps_strstats <- lapply(file.path(strstats_shp_dir,strstats_shp_files), st_read_withname) %>%
+                      bind_rows() %>% st_transform(.,5070) %>% 
+                      st_cast(.,"MULTIPOLYGON") %>%
+                      mutate(boundary_src = "StreamStats") %>% rename("sitecode" = "sitename") %>%
+                      select(sitecode,boundary_src,geometry) %>%
+                      filter(sitecode %in% SP_sites$sitecode)
+  unlink(temp,recursive=TRUE)
+  
+# Combine watershed boundaries:
+  SP_bounds <- bind_rows(MD_shps,NH_shps_HB,NH_shps,SP_shps_gagesII,SP_shps_strstats,WI_shps) 
+  all_bounds <- bind_rows(appling_shps,SP_bounds) %>% st_transform(.,4326) %>% 
+                rename("site_nm" = "sitecode","dat_src"="boundary_src")
+  st_write(all_bounds,"./output/watershed_boundaries/watershed_shapefiles.shp",driver = "ESRI Shapefile")
+  
+  # zip shapefile:
+  zip(zipfile = './output/watershed_boundaries/SP_watershed_shapefiles.zip', files =  dir("./output/watershed_boundaries/", full.names = TRUE))
+  
+```
+  
+```{r,echo=FALSE,warning=FALSE}
+# Summarize:
+all_bounds_join <- bind_rows(appling_shps,SP_bounds) %>% 
+                   mutate(ws_area_km2_spatial = as.numeric(st_area(.))/(1000*1000)) %>%
+                   st_drop_geometry()
+  
+# Which sites within the statset do we NOT have spatial ws boundaries for:
+statset2 <- left_join(statset,all_bounds_join,by="sitecode")
+print(statset2$sitecode[which(is.na(statset2$ws_area_km2_spatial))])
+
+# How many sites within stat-set do we not have watershed boundaries for?
+#fullset %>% filter(!Site_ID %in% all_bounds$site_nm) %>% summarize(n = n())
+# (none of the remaining nwis sites in full-set are contained within gagesii or falcone et al. 2017)
+
+
+```
+
+```{r,echo=FALSE,warning=FALSE}
+
+# Gather drainage area estimates from NWIS:
+statset2$nwis_drainarea <- NA
+
+for(i in seq_along(statset2$sitecode)){
+  
+  if(grepl(pattern = "nwis",x = statset2$sitecode[i])){
+    gage_sitename <- substr(statset2$sitecode[i],start=6,stop=30)
+    drainarea <- readNWISsite(siteNumbers = gage_sitename) %>% 
+                 mutate(ws_area_km2_nwis = drain_area_va * 2.58999) %>%
+                 select(ws_area_km2_nwis) %>% as.numeric() %>% round(.,3)
+    statset2$nwis_drainarea[i] <- drainarea
+  }
+}
+
+fit_nwis <- summary(lm(statset2$ws_area_km2_spatial~statset2$nwis_drainarea))  
+
+```
+
+
+<br>  
+
+How do the watershed areas estimated by gathered watershed boundaries compare against our estimates from NHDPlusV2 VAA?  
+
+```{r,echo=FALSE,warning=FALSE,fig.width=8,fig.height=4}
+
+lm_eqn <- function(df,x,y){
+    m <- lm(y ~ x, df);
+    eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+         list(a = format(unname(coef(m)[1]), digits = 2),
+              b = format(unname(coef(m)[2]), digits = 2),
+             r2 = format(summary(m)$r.squared, digits = 4)))
+    as.character(as.expression(eq));
+}
+
+adj_areas <- statset2 %>% ggplot() +  
+            geom_abline(slope=1,intercept=0,color="gray50",lty=2) +
+            geom_point(aes(x=ws_area_km2_spatial,ws_area_km2),alpha=.5) +
+            geom_point(data=filter(statset2,sitecode == "nwis_02264000" | sitecode=="nwis_07381600"),aes(x=ws_area_km2_spatial,ws_area_km2),color="blue") + 
+            scale_x_log10(breaks=c(1,100,10000,1000000)) + scale_y_log10(breaks=c(1,100,10000,1000000)) + 
+            theme_classic() + ggtitle(label = "Compare watershed boundary estimates against NHDV2",
+                                      subtitle = "NHD area adjusted for reach proportion") +
+            annotate("text",x = 1000, y = 1000000, label = lm_eqn(statset2,x=statset2$ws_area_km2_spatial,y=statset2$ws_area_km2), parse = TRUE) +
+            geom_label_repel(data=subset(statset2, ws_area_km2>2900000 | ws_area_km2 < 1 | ws_area_km2/ws_area_km2_spatial < 0.7),
+            aes(ws_area_km2_spatial,WS_area_km2,label=sitecode))
+
+unadj_areas <- statset2 %>% ggplot() +  
+            geom_abline(slope=1,intercept=0,color="gray50",lty=2) +
+            geom_point(aes(x=ws_area_km2_spatial,WS_area_km2),alpha=.5) +
+            geom_point(data=filter(statset2,sitecode == "nwis_02264000" | sitecode=="nwis_07381600"),aes(x=ws_area_km2_spatial,WS_area_km2),color="blue") + 
+            scale_x_log10(breaks=c(1,100,10000,1000000)) + scale_y_log10(breaks=c(1,100,10000,1000000)) + 
+            theme_classic() + ggtitle(label = "Compare watershed boundary estimates against NHDV2",
+                                      subtitle = "NHD area *not* adjusted for reach proportion") +
+            annotate("text",x = 1000, y = 1000000, label = lm_eqn(statset2,x=statset2$ws_area_km2_spatial,y=statset2$WS_area_km2), parse = TRUE) +
+            geom_label_repel(data=subset(statset2, ws_area_km2_spatial < 100 & WS_area_km2 < 1.2),
+            aes(ws_area_km2_spatial,WS_area_km2,label=sitecode))
+
+plots <- unadj_areas + adj_areas + plot_layout(ncol=2)
+print(plots)
+
+
+```
+
+The regression for the adjusted areas above is obviously influenced by the two sites highlighted above (and in blue on this plot). Note also that the NHDPlusV2 VAA for <span style="color:blue">WI_BEC</span> and <span style="color:blue">nwis_05406457</span> (they are the same site but are represented by two different names in our database) seem to underestimate area relative to the drainage area estimated by StreamStats (from Alison's data release) and from the [NWIS site](https://waterdata.usgs.gov/wi/nwis/nwismap/?site_no=05406457&agency_cd=USGS) for this gage.  
+
+<br>  
+
+##### What should we do about it?
+
+I guess our options would be:  
+  
+*Maybe ideal*  
+  
+1. We try to delineate watershed boundaries for all sites used in the paper  
+- This is probably do-able for the stat-set, but not for the full-set (there are `r fullset %>% filter(!Site_ID %in% all_bounds$site_nm) %>% summarize(n = n()) %>% as.integer()` sites in the full-set (lotic_site_info_full) for which we don't have existing watershed boundaries from a combination of Alison's data release and Lauren's StreamPULSE files for core + a subset of leveraged sites). Our workflow kind of complicates this anyway since we want estimates of watershed area upstream of where we filter the sites used in the paper.   
+  
+*Easiest*  
+  
+2. We adjust all sites for the reach proportion along the NHD flowline, and then manually adjust WS_area_km2 and WS_area_src for the few odd sites pointed out above. Just to be clear, these sites are: 
+
+```{r,echo=FALSE,warning=FALSE}
+
+omit <- c("nwis_02266200","nwis_02264000","nwis_07381600","WI_BEC","nwis_03301900","nwis_05406457")
+print(omit)
+
+```
+  
+  
+  
+*Another ~easy option?*  
+  
+3. I guess since a big chunk of our synthesis comes from the Powell Center data set, we're leaving information on the table by not using the spatial data provided in the Appling data release. As an alternative to the two options above, we could use watershed boundaries from the Appling data set and other published sources to estimate watershed area (since we can cite those sources), and then defer to reach-proportion-adjusted NHDV2 estimates for the remaining sites where we don't have watershed shapefiles. For the stat-set, the reach-proportion-adjusted estimates would be needed for `r statset2 %>% filter(!sitecode %in% all_bounds$site_nm) %>% summarize(n = n()) %>% as.integer()` sites, and for the full-set, this would be `r fullset %>% filter(!Site_ID %in% all_bounds$site_nm) %>% summarize(n = n()) %>% as.integer()` sites. I have a [shapefile](https://github.com/lekoenig/SP-synthesis-lek/tree/main/output/watershed_boundaries) containing the combined watershed boundaries, which represents the following data sources:
+
+```{r,echo=FALSE,warning=FALSE}
+
+print(unique(all_bounds$dat_src))
+
+```
+  
+
+ 
+
+<br>    
+  
+
+
+##### Appendix 1: Adjusting NHD VAA watershed areas for where the site is located along the reach  
+  
+Here is how I've adjusted NHD drainage areas when I've done that previously. I pair each site location to the closest flowline node, and then adjust upstream area based on that paired node. If I apply this function to our data set, I get practically the same values as Mike does, *maybe* with the exception of <span style="color:blue">nwis_03301900</span> and <span style="color:blue">nwis_02266200</span>.  
+  
+It's been awhile since I've looked at this - I think I needed to do a bit of troubleshooting to preserve the directionality of the flowline when calculating reach proportion (I'm also sure there are more elegant ways of doing this):
+
+```{r,echo=TRUE,warning=FALSE}
+
+calc.upstream.area <- function(locs){ # locs is a data frame containing columns "COMID","Lat","Lon", and "epsg_crs"
+  
+  # Load flowlines
+  nhd_subset <- nhdplusTools::subset_nhdplus(comids = locs$COMID,
+                               output_file = tempfile(fileext = ".gpkg"),
+                               nhdplus_data = "download", 
+                               flowline_only = TRUE,
+                               return_data = TRUE)
+  flines.sub <- nhd_subset$NHDFlowline_Network %>% st_transform(5070)
+  
+  # Transform projection for point location:
+  locs.sp <- st_as_sf(locs,coords=c("Lon","Lat"),crs=locs$epsg_crs) %>% st_transform(.,5070)
+  
+  # Cast flowline into points:
+  flines.sub2 <- st_cast(st_line_merge(st_union(st_cast(flines.sub, "MULTILINESTRING"))), "LINESTRING") 
+  flines.sub2.pts <- flines.sub2 %>% st_cast(.,"POINT") %>% st_as_sf(.)
+  flines.sub2.pts.coords <- sf::st_coordinates(flines.sub2.pts)
+  
+  # Match point locations to nearest flowline point segment:
+  matched <- st_nearest_feature(locs.sp,flines.sub2.pts)
+  empty <- st_as_sfc("POINT(EMPTY)", crs = 5070)
+  pts <- flines.sub2.pts %>%
+    mutate(distance_to_next = as.numeric(sf::st_distance(x, lead(x, default = empty), by_element = TRUE))
+    )
+  # Calculate the proportion along the reach at which the nearest point location lies:
+  reach.proportion <- sum(pts$distance_to_next[c(1:matched)],na.rm=T)/sum(pts$distance_to_next,na.rm=T)
+  
+  # Calculate upstream area based on proportion of NHD flowline and NHD VAA for that flowline:
+  Area_corr <- round(flines.sub$areasqkm * reach.proportion,5)
+  TotArea_corr <- flines.sub$totdasqkm - (flines.sub$areasqkm - Area_corr)
+  
+  return(TotArea_corr)
+  
+}
+
+```
+
+```{r,eval=FALSE,echo=FALSE,warning=FALSE}
+
+statset2$Calc_UpstrArea_km2 <- NA
+for(i in seq_along(statset2$sitecode)){
+  up.area <- tryCatch(calc.upstream.area(locs = statset2[i,]),error=function(cond) {return(NA)})
+  statset2$Calc_UpstrArea_km2[i] <- up.area
+  #print(i)
+}
+
+
+```
+
+
+
+
+
