@@ -1,0 +1,38 @@
+Region,Site,DataSource,SiteName,latitude,longitude,USGS_STATIONID,NWIS_DRAINAREA_SQKM,NOTES
+AZ,LV,StreamPULSE-Core,Lower Verde River,33.5586,-111.669,nwis_09511300,17132.8,SP site located at USGS gage
+AZ,MV,StreamPULSE-Core,Middle Verde River,34.4992,-111.817,NA,12973.3,USGS 09506000 located downstream of SP site lat/lon
+AZ,OC,StreamPULSE-Core,Oak Creek,34.8616,-111.762,nwis_09504420,603.5,SP site located at USGS gage
+AZ,SC,StreamPULSE-Core,Sycamore Creek,33.7532,-111.506,NA,424.8,USGS 09510200 located downstream of SP site lat/lon
+AZ,WB,StreamPULSE-Core,Wet Beaver Creek,34.6793,-111.695,NA,287.5,USGS 09505200 located upstream of SP site lat/lon
+CT,BUNN,StreamPULSE-Leveraged,Bunnell Brook,41.7862,-72.9648,nwis_01188000,10.6,SP site located at USGS gage
+CT,FARM,StreamPULSE-Leveraged,Farmington River at Tariffville,41.9083,-72.7594,nwis_01189995,1494.4,SP site located at USGS gage
+CT,HUBB,StreamPULSE-Leveraged,Hubbard River,42.0375,-72.9393,nwis_01187300,51.5,SP site located at USGS gage
+CT,STIL,StreamPULSE-Leveraged,Still River,41.9679,-73.0334,nwis_01186500,220.2,SP site located at USGS gage
+CT,Unio,StreamPULSE-Leveraged,Farmington River at Unionville,41.7555,-72.887,nwis_01188090,979,SP site located at USGS gage
+FL,ICHE2700,StreamPULSE-Core,Ichetucknee Springs 2700,29.9526,-82.7863,nwis_02322700,551.7,SP site located at USGS gage
+FL,NR1000,StreamPULSE-Core,New River 1000,29.998,-82.2742,nwis_02321000,494.7,SP site located at USGS gage
+FL,SF2500,StreamPULSE-Core,Santa Fe 2500,29.8493,-82.7148,nwis_02322500,2634,SP site located at USGS gage
+FL,SF2800,StreamPULSE-Core,Santa Fe 2800,29.9118,-82.8606,nwis_02322800,3558.6,SP site located at USGS gage
+FL,SF700,StreamPULSE-Core,Santa Fe 700,29.8465,-82.2197,nwis_02320700,245.8,SP site located at USGS gage
+FL,WS1500,StreamPULSE-Core,Worthington Springs 1500,29.9219,-82.4262,nwis_02321500,1489.2,SP site located at USGS gage
+MD,BARN,StreamPULSE-Leveraged,Baisman Run at Ivy Hill Road,39.47961,-76.6786,nwis_01583580,3.8,SP site located at USGS gage
+MD,DRKR,StreamPULSE-Leveraged,Dead Run,39.3112,-76.7166,nwis_01589330,14.3,SP site located at USGS gage
+MD,GFCP,StreamPULSE-Leveraged,Gwynns Falls at Carroll Park,39.2715,-76.6486,nwis_01589352,170.7,SP site located at USGS gage
+MD,GFGB,StreamPULSE-Leveraged,Gwynns Falls at Gwynnbrook Avenue (Delight),39.4429,-76.7834,nwis_01589197,11,SP site located at USGS gage
+MD,GFVN,StreamPULSE-Leveraged,Gwynns Falls at Villa Nova,39.3459,-76.7332,nwis_01589300,84.2,SP site located at USGS gage
+MD,POBR,StreamPULSE-Leveraged,Pond Branch,39.4803,-76.6875,nwis_01583570,0.31,SP site located at USGS gage
+NC,Eno,StreamPULSE-Core,Eno River,36.0715,-79.0968,nwis_02085000,170.9,SP site located at USGS gage
+NC,Mud,StreamPULSE-Core,Mud Tributary,36.004,-78.9715,NA,NA,MudTrib naming convention sometimes used for this site
+NC,UNHC,StreamPULSE-Core,Upper New Hope Creek,35.9925,-79.046,NA,NA,
+NC,Stony,StreamPULSE-Core,Stony Creek,36.0325,-79.0824,NA,NA,
+NC,UEno,StreamPULSE-Core,East Eno River,36.1359,-79.1588,NA,NA,
+NC,NHC,StreamPULSE-Core,New Hope Creek,35.9795,-79.0018,NA,NA,
+PR,Icacos,StreamPULSE-Core,Rio Icacos,18.2754,-65.7855,nwis_50075000,3.3,SP site located at USGS gage
+PR,QS,StreamPULSE-Core,Quebrada Sonadora,18.3213,-65.8171,nwis_50063440,2.6,SP site located at old-USGS gage; note that USGS gage is no longer operational
+RI,CorkBrk,StreamPULSE-Leveraged,Cork Brook,41.8038,-71.6499,nwis_01115280,4.6,SP site located at USGS gage
+VT,MOOS,StreamPULSE-Leveraged,Moose River near Victory VT,44.5117,-71.8378,NA,194.8,USGS 01134500 located slightly upstream of SP site lat/lon
+VT,Pass,StreamPULSE-Leveraged,Passumpsic River,44.3656,-72.0393,nwis_01135500,1129.2,SP site located at USGS gage
+VT,POPE,StreamPULSE-Leveraged,"Pope Brook (W-3) near North Danville, VT",44.4761,-72.125,nwis_01135150,8.4,SP site located at USGS gage
+VT,SLPR,StreamPULSE-Leveraged,"SLEEPERS RIVER (SITE W-5) NEAR ST. JOHNSBURY, VT",44.4353,-72.0389,nwis_01135300,111.1,SP site located at USGS gage
+WI,BEC,StreamPULSE-Core,Black Earth Creek,43.1097,-89.6408,nwis_05406457,29.5,SP site located at USGS gage
+WI,BRW,StreamPULSE-Core,Brewery Creek,43.125,-89.635,nwis_05406469,26.2,SP site located at USGS gage
